@@ -136,6 +136,7 @@
 **Aportación al proyecto:** Desarrollo de la interfaz con **Angular 19+ standalone**, **Tailwind CSS** y **SCSS** puntual: pantallas por rol (admin, profesor, alumno, shared), componentes reutilizables, estados de carga/vacío/éxito e **internacionalización** (es/en/de). Destacan el **modo oscuro** global con toggle y persistencia, los **arreglos recientes de CSS** en el front y el rediseño de patrones de listado y acciones CRUD.
 
 **Evidencias (Jira):**
+- [EQ-8](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-8) — Planteamiento de interfaz (Figma)
 - [EQ-322](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-322) — Modo oscuro en toda la app (`darkMode: 'class'`, tokens Tailwind, toggle)
 - [EQ-352](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-352) — Arreglos de Front (CSS y correcciones visuales recientes)
 - [EQ-340](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-340) — Rediseño de botones CRUD en listados admin
@@ -167,11 +168,20 @@
 
 ### Iniciativa para la Empleabilidad II
 
-**Aportación al proyecto:** Trabajo propio del módulo (no integrado en el código de Ziryab ni en el tablero Jira del TFG). Se aplicaron contenidos de **creación y planificación de una iniciativa**: análisis del entorno, **estudio de mercado** orientado a centros educativos, definición de la propuesta de valor de la plataforma y líneas de actuación para su puesta en marcha. Como salida práctica se planteó la **presentación del proyecto** a **centros escolares**, **asociaciones de madres y padres (AMPAs)** y colectivos docentes, y un plan de **pruebas piloto** e **implantación** en empresas o instituciones del ámbito educativo (centros privados o centros públicos), recogiendo feedback para validar la utilidad de Ziryab antes de un despliegue más amplio.
+**Aportación al proyecto:** Trabajo del módulo **no integrado en el código** de Ziryab, pero que **definió la iniciativa y el modelo de negocio** antes del desarrollo. Se analizó el mercado educativo (dependencia de plataformas institucionales poco centralizadas, alternativas como Séneca/PASEN, Moodle, Classroom o ClassDojo) y se formalizó la propuesta en un **Lean Canvas**: problema (servicios poco unificados y poco fluidos), **solución** (una sola plataforma para gestión y comunicación centro–profesorado–alumnado–familias), **segmentos** (centros públicos/privados, docentes con rol administrativo, alumnado y early adopters en redes de innovación), **propuesta de valor** (simplicidad y personalización frente a combinar varias herramientas), **canales** (redes educativas, contacto directo con centros y redes sociales) e **ingresos** (licencia base gratuita con mantenimiento por centro y periodo de prueba). La [presentación inicial intermodular](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) añade **objetivos SMART**, **Project Charter** (roles: Scrum/QA, backend, frontend), **riesgos** (seguridad, suplantación, brecha digital) y **plan de sprints** (15 iteraciones de 2 semanas). La difusión a centros, AMPAs y pilotos complementa el [Despliegue](#-despliegue) técnico.
 
 **Evidencias (Jira):**
-- Estudio de mercado, memoria del ejercicio y material de presentación (módulo IPE II): **sin ticket dedicado en Jira** — entrega académica del módulo / documentación unificada del TFG (véase [Documentación](#-documentación))
-- Piloto e implantación en centros educativos: **sin ticket dedicado en Jira** — complementa el despliegue técnico de la app (véase [Despliegue](#-despliegue))
+
+*Entrega académica IPE II (`docs/guion-presentacion-oral/presentacionInicial/`):*
+- [Lean Canvas — Grupo Sonrisa (JPG)](./docs/guion-presentacion-oral/presentacionInicial/Lean%20Canvas%20Grupo%20Sonrisa.jpg) — modelo de negocio (problema, solución, métricas, UVP, segmentos, costes e ingresos)
+- [Presentación inicial — proyecto intermodular (PDF)](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) — charter, SMART, riesgos, plan de sprints y enlace al canvas
+- Memoria unificada del TFG → [Documentación](#-documentación)
+
+*Trazabilidad en Jira (planificación inicial del TFG, alineada con la iniciativa):*
+- [EQ-18](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-18) — Redactar enunciado del proyecto
+- [EQ-12](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-12) — Estructuración del proyecto
+- [EQ-41](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-41) — Terminar presentación
+- [EQ-372](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-372) — Preparar presentación: contexto → problema → solución → demo → aprendizajes
 
 ---
 
@@ -219,6 +229,8 @@
 | **PDF unificado** | [🔗 enlace](./docs/documentacion.pdf) |
 | **PDF Jira** | [🔗 enlace](./docs/jira.pdf) |
 | **Guion presentación oral** (demo, plan B, ensayo) | [📁 carpeta](./docs/guion-presentacion-oral/README.md) |
+| **Presentación inicial IPE** (charter, SMART, riesgos) | [📄 PDF](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) |
+| **Lean Canvas IPE** (Grupo Sonrisa) | [🖼️ JPG](./docs/guion-presentacion-oral/presentacionInicial/Lean%20Canvas%20Grupo%20Sonrisa.jpg) |
 
 ---
 
