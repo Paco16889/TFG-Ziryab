@@ -28,26 +28,30 @@
 
 > *"Digitalizar la gestión del centro para que profesores y alumnos dediquen el tiempo a enseñar y aprender, no al papeleo."*
 
-| Miembro | Rol en el proyecto | Correo educaAnd |
-|---------|-------------------|-----------------|
-| **Francisco de Asís Cobo Sánchez** | Full Stack | `fcobsan076@g.educaand.es` |
-| **Antonio Salces Alcaraz** | Full Stack | `asalalc1312@g.educaand.es` |
-| **Ángela Mora Mata** | Full Stack | `amormat1010@g.educaand.es` |
+
+| Miembro                            | Rol en el proyecto | Correo educaAnd             |
+| ---------------------------------- | ------------------ | --------------------------- |
+| **Francisco de Asís Cobo Sánchez** | Full Stack         | `fcobsan076@g.educaand.es`  |
+| **Antonio Salces Alcaraz**         | Full Stack         | `asalalc1312@g.educaand.es` |
+| **Ángela Mora Mata**               | Full Stack         | `amormat1010@g.educaand.es` |
+
 
 ### Stack del proyecto
 
-| Capa | Tecnología |
-|------|------------|
-| **Frontend** | Angular 19 (standalone components) |
-| **Estilos** | Tailwind CSS + SCSS puntual |
-| **Backend** | Node.js + Express 5 + TypeScript (ESM) |
-| **ORM / BD** | Prisma + PostgreSQL |
-| **Autenticación** | Firebase Auth + JWT (cookies httpOnly / Bearer) |
-| **Almacenamiento** | Cloudinary (ficheros) |
-| **API docs** | Swagger (`swagger-jsdoc` + `swagger-ui-express`) |
-| **Gestión** | Jira (proyecto `CURSO`) |
-| **Doc. código** | Compodoc |
-| **Despliegue** | Render (frontend + API) |
+
+| Capa               | Tecnología                                       |
+| ------------------ | ------------------------------------------------ |
+| **Frontend**       | Angular 19 (standalone components)               |
+| **Estilos**        | Tailwind CSS + SCSS puntual                      |
+| **Backend**        | Node.js + Express 5 + TypeScript (ESM)           |
+| **ORM / BD**       | Prisma + PostgreSQL                              |
+| **Autenticación**  | Firebase Auth + JWT (cookies httpOnly / Bearer)  |
+| **Almacenamiento** | Cloudinary (ficheros)                            |
+| **API docs**       | Swagger (`swagger-jsdoc` + `swagger-ui-express`) |
+| **Gestión**        | Jira (proyecto `CURSO`)                          |
+| **Doc. código**    | Compodoc                                         |
+| **Despliegue**     | Render (frontend + API)                          |
+
 
 ---
 
@@ -55,21 +59,23 @@
 
 <img src="./assets/team/francisco.jpg" width="100" alt="Foto de Francisco de Asís Cobo Sánchez"/>
 
-| | |
-|---|---|
-| 🐙 **GitHub** |  [@yo164](https://github.com/yo164) |
-| 💼 **LinkedIn** | **PENDIENTE:** [Perfil](https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/) |
+|                 |                                                                         |
+| --------------- | ----------------------------------------------------------------------- |
+| 🐙 **GitHub**   | [@yo164](https://github.com/yo164)                                      |
+| 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/) |
+
 
 ---
 
 ### 🧑‍💻 Antonio Salces Alcaraz
 
-<img src="./assets/team/antonio.jpg" width="100" alt="Foto de Antonio Salces Alcaraz"/>
+<img src="./assets/team/Salces_Alcaraz_Antonio.png" width="100" alt="Foto de Antonio Salces Alcaraz"/>
 
-| | |
-|---|---|
-| 🐙 **GitHub** |  [@AntonioSalces](https://github.com/AntonioSalces) |
+|                 |                                                      |
+| --------------- | ---------------------------------------------------- |
+| 🐙 **GitHub**   | [@AntonioSalces](https://github.com/AntonioSalces)   |
 | 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/antoniosalces/) |
+
 
 ---
 
@@ -77,10 +83,11 @@
 
 <img src="./assets/team/angela.jpg" width="100" alt="Foto de Ángela Mora Mata"/>
 
-| | |
-|---|---|
-| 🐙 **GitHub** |  [@angela1006](https://github.com/angela1006) |
-| 💼 **LinkedIn** |  [Perfil](https://www.linkedin.com/in/ángela-mora-mata-b8458a329/) |
+|                 |                                                                   |
+| --------------- | ----------------------------------------------------------------- |
+| 🐙 **GitHub**   | [@angela1006](https://github.com/angela1006)                      |
+| 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/ángela-mora-mata-b8458a329/) |
+
 
 ---
 
@@ -98,75 +105,86 @@ Aplicación **SPA** (Angular) consumiendo una **API REST** (Node/Express) sobre 
 
 ### Funcionalidades principales
 
-| Área | Descripción |
-|------|-------------|
-| **Alumno** | Dashboard, clases, horario, temario, tareas y entregas, notas, ficha de usuario, notificaciones en tiempo real |
-| **Profesor** | Clases asignadas, pasar lista, tareas por asignatura, gestión de notas, horario, menú de clase |
-| **Administrador** | CRUD de alumnos, profesores, asignaturas, ciclos, grupos, horarios semanales, incidencias, anuncios, informes |
-| **Transversal** | i18n (es / en / de), calendario integrado, avisos SSE, subida de ficheros (Cloudinary), documentación Swagger |
+
+| Área              | Descripción                                                                                                    |
+| ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Alumno**        | Dashboard, clases, horario, temario, tareas y entregas, notas, ficha de usuario, notificaciones en tiempo real |
+| **Profesor**      | Clases asignadas, pasar lista, tareas por asignatura, gestión de notas, horario, menú de clase                 |
+| **Administrador** | CRUD de alumnos, profesores, asignaturas, ciclos, grupos, horarios semanales, incidencias, anuncios, informes  |
+| **Transversal**   | i18n (es / en / de), calendario integrado, avisos SSE, subida de ficheros (Cloudinary), documentación Swagger  |
+
 
 ### Capturas
 
-> Sustituir por capturas reales alojadas en `./assets/screenshots/` antes de la exposición.
+Vista previa en miniatura; **clic en la imagen** para abrirla a tamaño completo.
 
-![Vista principal de Ziryab](./assets/screenshots/main.png)
+| Vista               | Captura |
+| ------------------- | ------- |
+| Login y roles       | <a href="./assets/screenshots/login.png"><img src="./assets/screenshots/login.png" width="400" alt="Login y roles"/></a> |
+| Panel principal     | <a href="./assets/screenshots/principal.png"><img src="./assets/screenshots/principal.png" width="400" alt="Panel principal"/></a> |
+| Clases              | <a href="./assets/screenshots/clases.png"><img src="./assets/screenshots/clases.png" width="400" alt="Clases"/></a> |
+| Gestión             | <a href="./assets/screenshots/gestion.png"><img src="./assets/screenshots/gestion.png" width="400" alt="Gestión"/></a> |
+| Panel administrador | <a href="./assets/screenshots/admin-dashboard.png"><img src="./assets/screenshots/admin-dashboard.png" width="400" alt="Panel administrador"/></a> |
 
-| Vista | Captura |
-|-------|---------|
-| Login y roles | `./assets/screenshots/login.png` **(PENDIENTE)** |
-| Panel profesor | `./assets/screenshots/profesor-clases.png` **(PENDIENTE)** |
-| Panel administrador | `./assets/screenshots/admin-dashboard.png` **(PENDIENTE)** |
 
 ### Diagrama de arquitectura
 
-![Diagrama de arquitectura de Ziryab](./assets/diagramas/arquitectura.png)
+Diagrama de arquitectura de Ziryab
 
 ---
 
 ## 🏗️ Arquitectura y stack
 
-![Diagrama de arquitectura de Ziryab](./assets/diagramas/arquitectura.png)
+Diagrama de arquitectura de Ziryab
 
-| Componente | Tecnología / URL |
-|------------|------------------|
-| **Frontend** | Angular 19, Tailwind — [ziryabfront.onrender.com](https://ziryabfront.onrender.com/) |
-| **API** | Node.js, Express 5, Swagger — [ziryabback.onrender.com](https://ziryabback.onrender.com/api) |
-| **Base de datos** | PostgreSQL + Prisma ORM |
-| **Autenticación** | Firebase Auth + JWT (backend) |
-| **Ficheros** | Cloudinary |
-| **Tiempo real** | SSE (notificaciones) |
+
+| Componente        | Tecnología / URL                                                                             |
+| ----------------- | -------------------------------------------------------------------------------------------- |
+| **Frontend**      | Angular 19, Tailwind — [ziryabfront.onrender.com](https://ziryabfront.onrender.com/)         |
+| **API**           | Node.js, Express 5, Swagger — [ziryabback.onrender.com](https://ziryabback.onrender.com/api) |
+| **Base de datos** | PostgreSQL + Prisma ORM                                                                      |
+| **Autenticación** | Firebase Auth + JWT (backend)                                                                |
+| **Ficheros**      | Cloudinary                                                                                   |
+| **Tiempo real**   | SSE (notificaciones)                                                                         |
+
 
 ---
 
 ## 📦 Repositorios de código
 
-| Repositorio | Descripción | URL |
-|-------------|-------------|-----|
-| **Documentación (este repo)** | README guía, PDFs, capturas, assets de exposición | **PENDIENTE:** URL pública de `TFG-Ziryab` |
-| **Frontend** | Cliente Angular 19 | **PENDIENTE:** `https://github.com/.../angular` |
-| **Backend** | API REST Node + Prisma | **PENDIENTE:** `https://github.com/.../node` |
+
+| Repositorio                   | Descripción                                       | URL                                             |
+| ----------------------------- | ------------------------------------------------- | ----------------------------------------------- |
+| **Documentación (este repo)** | README guía, PDFs, capturas, assets de exposición | **PENDIENTE:** URL pública de `TFG-Ziryab`      |
+| **Frontend**                  | Cliente Angular 19                                | **PENDIENTE:** `https://github.com/.../angular` |
+| **Backend**                   | API REST Node + Prisma                            | **PENDIENTE:** `https://github.com/.../node`    |
+
 
 ---
 
 ## 🚀 Despliegue en producción
 
-| Servicio | URL | Notas |
-|----------|-----|-------|
-| **API (producción)** | [https://ziryabback.onrender.com/api](https://ziryabback.onrender.com/api) | Desplegada en Render |
-| **Swagger / API docs** | [https://ziryabback.onrender.com/api-docs](https://ziryabback.onrender.com/api-docs) | Documentación interactiva de endpoints |
-| **Health check** | [https://ziryabback.onrender.com/health](https://ziryabback.onrender.com/health) | Monitorización básica |
-| **Aplicación web (frontend)** | [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/) | SPA Angular desplegada en Render |
-| **Compodoc (servidor)** | **PENDIENTE** | Debe estar accesible durante la evaluación |
+
+| Servicio                      | URL                                                                                  | Notas                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------ |
+| **API (producción)**          | [https://ziryabback.onrender.com/api](https://ziryabback.onrender.com/api)           | Desplegada en Render                       |
+| **Swagger / API docs**        | [https://ziryabback.onrender.com/api-docs](https://ziryabback.onrender.com/api-docs) | Documentación interactiva de endpoints     |
+| **Health check**              | [https://ziryabback.onrender.com/health](https://ziryabback.onrender.com/health)     | Monitorización básica                      |
+| **Aplicación web (frontend)** | [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/)               | SPA Angular desplegada en Render           |
+| **Compodoc (servidor)**       | **PENDIENTE**                                                                        | Debe estar accesible durante la evaluación |
+
 
 ### Credenciales de prueba para el tribunal
 
 > Acceso en [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/) con autenticación **Firebase** (proyecto `ziryab-7006e`).
 
-| Rol | Email | Contraseña |
-|-----|-------|------------|
-| **Alumno** | `alumno2@ziryab.es` | `Alumno123456` |
-| **Profesor** | `profesor1@ziryab.es` | `Profesor123456` |
-| **Administrador** | `admin1@ziryab.es` | `Admin123456` |
+
+| Rol               | Email                 | Contraseña       |
+| ----------------- | --------------------- | ---------------- |
+| **Alumno**        | `alumno2@ziryab.es`   | `Alumno123456`   |
+| **Profesor**      | `profesor1@ziryab.es` | `Profesor123456` |
+| **Administrador** | `admin1@ziryab.es`    | `Admin123456`    |
+
 
 ---
 
@@ -197,17 +215,19 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 **Evidencias**
 
-| Evidencia | Ubicación |
-|-----------|-----------|
-| Esquema Prisma | `node/prisma/schema.prisma` |
-| Migraciones | `node/prisma/migrations/` |
-| Seed de datos | `node/prisma/seed.ts`, `node/prisma/seed-demo.ts` |
-| Diagrama relacional | `node/prisma/esquema-relacional.md` |
-| Configuración Express | `node/src/app.ts` |
-| Swagger | `node/src/config/swagger.ts`, anotaciones en `*.routes.ts` |
-| Auth y roles | `node/src/middleware/auth.ts`, `authorize.ts` |
-| API en producción | [https://ziryabback.onrender.com/api](https://ziryabback.onrender.com/api) |
-| Tests (persistencia + API) | `node/src/tests/` |
+
+| Evidencia                  | Ubicación                                                                  |
+| -------------------------- | -------------------------------------------------------------------------- |
+| Esquema Prisma             | `node/prisma/schema.prisma`                                                |
+| Migraciones                | `node/prisma/migrations/`                                                  |
+| Seed de datos              | `node/prisma/seed.ts`, `node/prisma/seed-demo.ts`                          |
+| Diagrama relacional        | `node/prisma/esquema-relacional.md`                                        |
+| Configuración Express      | `node/src/app.ts`                                                          |
+| Swagger                    | `node/src/config/swagger.ts`, anotaciones en `*.routes.ts`                 |
+| Auth y roles               | `node/src/middleware/auth.ts`, `authorize.ts`                              |
+| API en producción          | [https://ziryabback.onrender.com/api](https://ziryabback.onrender.com/api) |
+| Tests (persistencia + API) | `node/src/tests/`                                                          |
+
 
 **Limitaciones / futuro**
 
@@ -229,12 +249,14 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 **Evidencias**
 
-| Evidencia | Ubicación |
-|-----------|-----------|
-| Rutas y guards | `angular/src/app/app.routes.ts`, `angular/src/app/core/guards/` |
-| Componentes por rol | `angular/src/app/pages/alumno/`, `profesor/`, `admin/` |
-| Estilos Tailwind | Componentes `.html` + `tailwind.config.js` |
-| Traducciones | `angular/src/assets/i18n/es.json` (y `en`, `de`) |
+
+| Evidencia           | Ubicación                                                       |
+| ------------------- | --------------------------------------------------------------- |
+| Rutas y guards      | `angular/src/app/app.routes.ts`, `angular/src/app/core/guards/` |
+| Componentes por rol | `angular/src/app/pages/alumno/`, `profesor/`, `admin/`          |
+| Estilos Tailwind    | Componentes `.html` + `tailwind.config.js`                      |
+| Traducciones        | `angular/src/assets/i18n/es.json` (y `en`, `de`)                |
+
 
 **Limitaciones / futuro**
 
@@ -263,16 +285,18 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 **Evidencias**
 
-| Evidencia | Ubicación |
-|-----------|-----------|
-| Cliente Angular | `angular/src/app/` |
-| Notificaciones SSE (cliente) | `angular/src/app/core/services/notifications.service.ts` |
-| Firebase Auth | `angular/src/app/core/services/firebase-auth.service.ts` |
-| i18n multidioma | `angular/src/assets/i18n/` |
-| Módulos de servicio (backend) | `node/src/modules/*/` |
-| SSE notificaciones (servidor) | `node/src/modules/notifications/notifications.sse.ts` |
-| Tests de integración | `node/src/tests/` (Jest + Supertest) |
-| Scripts de despliegue | `node/package.json` (`render:build`, `render:start`) |
+
+| Evidencia                     | Ubicación                                                |
+| ----------------------------- | -------------------------------------------------------- |
+| Cliente Angular               | `angular/src/app/`                                       |
+| Notificaciones SSE (cliente)  | `angular/src/app/core/services/notifications.service.ts` |
+| Firebase Auth                 | `angular/src/app/core/services/firebase-auth.service.ts` |
+| i18n multidioma               | `angular/src/assets/i18n/`                               |
+| Módulos de servicio (backend) | `node/src/modules/*/`                                    |
+| SSE notificaciones (servidor) | `node/src/modules/notifications/notifications.sse.ts`    |
+| Tests de integración          | `node/src/tests/` (Jest + Supertest)                     |
+| Scripts de despliegue         | `node/package.json` (`render:build`, `render:start`)     |
+
 
 **Limitaciones / futuro**
 
@@ -293,11 +317,13 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 **Evidencias**
 
-| Evidencia | Ubicación |
-|-----------|-----------|
-| Página corporativa / About | `angular/src/app/pages/shared/about/` |
-| Documentación de negocio | **PENDIENTE:** sección en PDF unificado (`./docs/documentacion.pdf`) |
-| Presentación intermodular | Este `README.md` |
+
+| Evidencia                  | Ubicación                                                            |
+| -------------------------- | -------------------------------------------------------------------- |
+| Página corporativa / About | `angular/src/app/pages/shared/about/`                                |
+| Documentación de negocio   | **PENDIENTE:** sección en PDF unificado (`./docs/documentacion.pdf`) |
+| Presentación intermodular  | Este `README.md`                                                     |
+
 
 **Limitaciones / futuro**
 
@@ -317,12 +343,14 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 **Evidencias**
 
-| Evidencia | Ubicación |
-|-----------|-----------|
-| Módulos admin (CRUD) | `angular/src/app/pages/admin/entities/` |
+
+| Evidencia                        | Ubicación                                                             |
+| -------------------------------- | --------------------------------------------------------------------- |
+| Módulos admin (CRUD)             | `angular/src/app/pages/admin/entities/`                               |
 | API cursos / grupos / matrículas | `node/src/modules/course/`, `group/`, `enrollments/`, `course-group/` |
-| Informes admin | `angular/src/app/pages/admin/informe/` **(si aplica)** |
-| Incidencias y anuncios | `node/src/modules/issue/`, `announcements/` |
+| Informes admin                   | `angular/src/app/pages/admin/informe/` **(si aplica)**                |
+| Incidencias y anuncios           | `node/src/modules/issue/`, `announcements/`                           |
+
 
 **Limitaciones / futuro**
 
@@ -334,10 +362,12 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 
 Documentación técnica y de gestión exportada desde **Confluence** y otras fuentes, en un único PDF para el tribunal.
 
-| Documento | Enlace |
-|-----------|--------|
+
+| Documento                               | Enlace                                                                                |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
 | **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) **(PENDIENTE: generar y subir)** |
-| **PDF resumen Jira** | [./docs/jira.pdf](./docs/jira.pdf) **(PENDIENTE: exportar tablero y estadísticas)** |
+| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) **(PENDIENTE: exportar tablero y estadísticas)**   |
+
 
 > Incluir en el PDF: arquitectura, casos de uso, modelo de datos, manual de despliegue y capturas de Confluence.
 
@@ -350,18 +380,20 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 ### Resumen para evaluación
 
-| Aspecto | Descripción |
-|---------|-------------|
-| **Epics** | **PENDIENTE:** listar epics principales (p. ej. Auth, Horarios, Tareas, Admin CRUD) |
-| **Reparto** | **PENDIENTE:** breve reparto por miembro (issues asignadas) |
-| **Estado** | **PENDIENTE:** % completado / sprint final |
-| **PDF** | Exportación con estadísticas, burndown y tablero → `./docs/jira.pdf` |
+
+| Aspecto     | Descripción                                                                         |
+| ----------- | ----------------------------------------------------------------------------------- |
+| **Epics**   | **PENDIENTE:** listar epics principales (p. ej. Auth, Horarios, Tareas, Admin CRUD) |
+| **Reparto** | **PENDIENTE:** breve reparto por miembro (issues asignadas)                         |
+| **Estado**  | **PENDIENTE:** % completado / sprint final                                          |
+| **PDF**     | Exportación con estadísticas, burndown y tablero → `./docs/jira.pdf`                |
+
 
 ### Captura del tablero
 
 > Añadir captura actualizada antes del 5 de junio.
 
-![Tablero Jira](./assets/jira/tablero.png)
+Tablero Jira
 
 ---
 
@@ -369,11 +401,13 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 Generada desde el frontend Angular con **Compodoc**.
 
-| Recurso | Enlace |
-|---------|--------|
-| **Código fuente documentado** | Repositorio `angular/` |
-| **HTML generado (en repo)** | `angular/docs/` (ejecutar `npm run docs:build`) |
+
+| Recurso                           | Enlace                                                            |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **Código fuente documentado**     | Repositorio `angular/`                                            |
+| **HTML generado (en repo)**       | `angular/docs/` (ejecutar `npm run docs:build`)                   |
 | **Servidor público (evaluación)** | **PENDIENTE:** URL desplegada (GitHub Pages, Render static, etc.) |
+
 
 ### Comandos locales
 
@@ -389,16 +423,16 @@ npm run docs:serve    # servidor local para revisión
 
 Marcar cuando esté listo (requisitos del centro):
 
-- [ ] URL de **este repositorio** registrada en la tabla del repo `exposiciones_proyecto_intermodular_25_26_2DAM_M` (sustituir `PENDIENTE` en la fila del equipo).
-- [ ] Fotos del equipo en `./assets/team/` (francisco.jpg, antonio.jpg, angela.jpg).
-- [x] Diagrama de arquitectura en `./assets/diagramas/arquitectura.png`.
-- [ ] Capturas en `./assets/screenshots/` referenciadas en este README (sin enlaces rotos).
-- [ ] URLs de GitHub (frontend, backend, este repo) verificadas.
-- [x] Frontend en producción accesible ([ziryabfront.onrender.com](https://ziryabfront.onrender.com/)) + credenciales de prueba documentadas.
-- [ ] `./docs/documentacion.pdf` y `./docs/jira.pdf` subidos y enlazados.
-- [ ] Compodoc desplegado y URL activa durante la evaluación.
-- [ ] API y Swagger respondiendo en Render.
-- [ ] Ensayo de exposición ≤ **15 minutos** (orden **2**, 9:15–9:30).
+- URL de **este repositorio** registrada en la tabla del repo `exposiciones_proyecto_intermodular_25_26_2DAM_M` (sustituir `PENDIENTE` en la fila del equipo).
+- Fotos del equipo en `./assets/team/` (francisco.jpg, antonio.jpg, angela.jpg).
+- Diagrama de arquitectura en `./assets/diagramas/arquitectura.png`.
+- Capturas en `./assets/screenshots/` referenciadas en este README (sin enlaces rotos).
+- URLs de GitHub (frontend, backend, este repo) verificadas.
+- Frontend en producción accesible ([ziryabfront.onrender.com](https://ziryabfront.onrender.com/)) + credenciales de prueba documentadas.
+- `./docs/documentacion.pdf` y `./docs/jira.pdf` subidos y enlazados.
+- Compodoc desplegado y URL activa durante la evaluación.
+- API y Swagger respondiendo en Render.
+- Ensayo de exposición ≤ **15 minutos** (orden **2**, 9:15–9:30).
 
 ---
 
