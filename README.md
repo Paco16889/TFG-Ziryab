@@ -57,36 +57,55 @@
 
 ### 🧑‍💻 Francisco de Asís Cobo Sánchez
 
-<img src="./assets/team/francisco.jpg" width="100" alt="Foto de Francisco de Asís Cobo Sánchez"/>
-
-|                 |                                                                         |
-| --------------- | ----------------------------------------------------------------------- |
-| 🐙 **GitHub**   | [@yo164](https://github.com/yo164)                                      |
-| 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/) |
-
+<table>
+<tr>
+<td valign="middle">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/yo164">@yo164</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/">Perfil</a></td></tr>
+</table>
+</td>
+<td align="right" valign="middle" width="160">
+<a href="./assets/team/francisco.jpg"><img src="./assets/team/francisco.jpg" width="140" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
+</td>
+</tr>
+</table>
 
 ---
 
 ### 🧑‍💻 Antonio Salces Alcaraz
 
-<img src="./assets/team/Salces_Alcaraz_Antonio.png" width="100" alt="Foto de Antonio Salces Alcaraz"/>
-
-|                 |                                                      |
-| --------------- | ---------------------------------------------------- |
-| 🐙 **GitHub**   | [@AntonioSalces](https://github.com/AntonioSalces)   |
-| 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/antoniosalces/) |
-
+<table>
+<tr>
+<td valign="middle">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/AntonioSalces">@AntonioSalces</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/antoniosalces/">Perfil</a></td></tr>
+</table>
+</td>
+<td align="right" valign="middle" width="160">
+<a href="./assets/team/Salces_Alcaraz_Antonio.png"><img src="./assets/team/Salces_Alcaraz_Antonio.png" width="140" alt="Foto de Antonio Salces Alcaraz"/></a>
+</td>
+</tr>
+</table>
 
 ---
 
 ### 🧑‍💻 Ángela Mora Mata
 
-<img src="./assets/team/angela.jpg" width="100" alt="Foto de Ángela Mora Mata"/>
-
-|                 |                                                                   |
-| --------------- | ----------------------------------------------------------------- |
-| 🐙 **GitHub**   | [@angela1006](https://github.com/angela1006)                      |
-| 💼 **LinkedIn** | [Perfil](https://www.linkedin.com/in/ángela-mora-mata-b8458a329/) |
+<table>
+<tr>
+<td valign="middle">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/angela1006">@angela1006</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/ángela-mora-mata-b8458a329/">Perfil</a></td></tr>
+</table>
+</td>
+<td align="right" valign="middle" width="160">
+<a href="./assets/team/angela.jpg"><img src="./assets/team/angela.jpg" width="140" alt="Foto de Ángela Mora Mata"/></a>
+</td>
+</tr>
+</table>
 
 
 ---
