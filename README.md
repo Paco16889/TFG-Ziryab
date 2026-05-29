@@ -151,13 +151,13 @@ Vista previa en miniatura; **clic en la imagen** para abrirla a tamaño completo
 
 ### Diagrama de arquitectura
 
-Diagrama de arquitectura de Ziryab
+<a href="./assets/diagramas/arquitectura.png"><img src="./assets/diagramas/arquitectura.png" width="700" alt="Diagrama de arquitectura de Ziryab"/></a>
 
 ---
 
 ## 🏗️ Arquitectura y stack
 
-Diagrama de arquitectura de Ziryab
+<a href="./assets/diagramas/arquitectura.png"><img src="./assets/diagramas/arquitectura.png" width="700" alt="Diagrama de arquitectura de Ziryab"/></a>
 
 
 | Componente        | Tecnología / URL                                                                             |
