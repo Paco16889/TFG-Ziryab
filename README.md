@@ -174,12 +174,10 @@ Diagrama de arquitectura de Ziryab
 
 ## 📦 Repositorios de código
 
-
-| Repositorio                   | Descripción                                       | URL                                             |
-| ----------------------------- | ------------------------------------------------- | ----------------------------------------------- |
-| **Documentación (este repo)** | README guía, PDFs, capturas, assets de exposición | **PENDIENTE:** URL pública de `TFG-Ziryab`      |
-| **Frontend**                  | Cliente Angular 19                                | **PENDIENTE:** `https://github.com/.../angular` |
-| **Backend**                   | API REST Node + Prisma                            | **PENDIENTE:** `https://github.com/.../node`    |
+| Repositorio  | Descripción            | URL                                                     |
+| ------------ | ---------------------- | ------------------------------------------------------- |
+| **Frontend** | Cliente Angular 19     | [Pincha aquí](https://github.com/Paco16889/ZiryabFront) |
+| **Backend**  | API REST Node + Prisma | [Pincha aquí](https://github.com/yo164/ZiryabBack)      |
 
 
 ---
@@ -193,7 +191,7 @@ Diagrama de arquitectura de Ziryab
 | **Swagger / API docs**        | [https://ziryabback.onrender.com/api-docs](https://ziryabback.onrender.com/api-docs) | Documentación interactiva de endpoints     |
 | **Health check**              | [https://ziryabback.onrender.com/health](https://ziryabback.onrender.com/health)     | Monitorización básica                      |
 | **Aplicación web (frontend)** | [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/)               | SPA Angular desplegada en Render           |
-| **Compodoc (servidor)**       | **PENDIENTE**                                                                        | Debe estar accesible durante la evaluación |
+| **Compodoc (servidor)**       | [https://antoniosalces.github.io/ziryab-compodoc/index.html](https://antoniosalces.github.io/ziryab-compodoc/index.html) | Desplegado en GitHub Pages                 |
 
 
 ### Credenciales de prueba para el tribunal
@@ -428,7 +426,7 @@ Generada desde el frontend Angular con **Compodoc**.
 | --------------------------------- | ----------------------------------------------------------------- |
 | **Código fuente documentado**     | Repositorio `angular/`                                            |
 | **HTML generado (en repo)**       | `angular/docs/` (ejecutar `npm run docs:build`)                   |
-| **Servidor público (evaluación)** | **PENDIENTE:** URL desplegada (GitHub Pages, Render static, etc.) |
+| **Servidor público** | [https://antoniosalces.github.io/ziryab-compodoc/index.html](https://antoniosalces.github.io/ziryab-compodoc/index.html) |
 
 
 ### Comandos locales
