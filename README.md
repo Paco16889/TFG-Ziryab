@@ -57,16 +57,18 @@
 
 <table width="100%">
 <tr>
+<td valign="top"><h3>🧑‍💻 Francisco de Asís Cobo Sánchez</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/francisco.jpg"><img src="./assets/team/francisco.jpg" width="180" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
+</td>
+</tr>
+<tr>
 <td valign="top">
-<h3>🧑‍💻 Francisco de Asís Cobo Sánchez</h3>
 <table>
 <tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/yo164">@yo164</a></td></tr>
 <tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/">Perfil</a></td></tr>
 </table>
 </td>
-<td align="right" valign="middle" width="200">
-<a href="./assets/team/francisco.jpg"><img src="./assets/team/francisco.jpg" width="180" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
-</td>
 </tr>
 </table>
 
@@ -74,16 +76,18 @@
 
 <table width="100%">
 <tr>
+<td valign="top"><h3>🧑‍💻 Antonio Salces Alcaraz</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/Salces_Alcaraz_Antonio.png"><img src="./assets/team/Salces_Alcaraz_Antonio.png" width="180" alt="Foto de Antonio Salces Alcaraz"/></a>
+</td>
+</tr>
+<tr>
 <td valign="top">
-<h3>🧑‍💻 Antonio Salces Alcaraz</h3>
 <table>
 <tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/AntonioSalces">@AntonioSalces</a></td></tr>
 <tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/antoniosalces/">Perfil</a></td></tr>
 </table>
 </td>
-<td align="right" valign="middle" width="200">
-<a href="./assets/team/Salces_Alcaraz_Antonio.png"><img src="./assets/team/Salces_Alcaraz_Antonio.png" width="180" alt="Foto de Antonio Salces Alcaraz"/></a>
-</td>
 </tr>
 </table>
 
@@ -91,15 +95,17 @@
 
 <table width="100%">
 <tr>
+<td valign="top"><h3>🧑‍💻 Ángela Mora Mata</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/angela.jpg"><img src="./assets/team/angela.jpg" width="180" alt="Foto de Ángela Mora Mata"/></a>
+</td>
+</tr>
+<tr>
 <td valign="top">
-<h3>🧑‍💻 Ángela Mora Mata</h3>
 <table>
 <tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/angela1006">@angela1006</a></td></tr>
 <tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/ángela-mora-mata-b8458a329/">Perfil</a></td></tr>
 </table>
-</td>
-<td align="right" valign="middle" width="200">
-<a href="./assets/team/angela.jpg"><img src="./assets/team/angela.jpg" width="180" alt="Foto de Ángela Mora Mata"/></a>
 </td>
 </tr>
 </table>
