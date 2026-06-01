@@ -1,0 +1,140 @@
+{
+  "total": 360,
+  "done": 240,
+  "pct": 66.7,
+  "status": {
+    "Tareas por hacer": 79,
+    "En curso": 7,
+    "Finalizada": 240,
+    "Revisión": 34
+  },
+  "types": {
+    "Epic": 19,
+    "Historia": 108,
+    "Tarea": 220,
+    "Error": 11,
+    "Subtask": 2
+  },
+  "assignees": {
+    "Ángela Mora": 86,
+    "Antonio Salces Alcaraz": 73,
+    "Francisco Cobo": 135,
+    "Sin asignar": 66
+  },
+  "epics": [
+    {
+      "key": "EQ-1",
+      "summary": "Tareas front",
+      "status": "Tareas por hacer",
+      "assignee": "Ángela Mora"
+    },
+    {
+      "key": "EQ-12",
+      "summary": "Estructuración",
+      "status": "Tareas por hacer",
+      "assignee": "Francisco Cobo"
+    },
+    {
+      "key": "EQ-355",
+      "summary": "📚 Documentación - README y Guías del Proyecto",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-356",
+      "summary": "📖 Documentación Técnica - PDFs y Compodoc",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-357",
+      "summary": "🚀 Despliegue - Backend y Frontend en Producción",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-358",
+      "summary": "🎤 Exposición - Presentación y Demo (5 de junio)",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-359",
+      "summary": "✅ Calidad Técnica - Revisión de Usabilidad, UX, Seguridad y Arquitectura",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-44",
+      "summary": "Tareas Back",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-45",
+      "summary": "Compose",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-46",
+      "summary": "Extracción de datos",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-47",
+      "summary": "DI",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-6",
+      "summary": "Tareas BBDD",
+      "status": "Tareas por hacer",
+      "assignee": "Ángela Mora"
+    },
+    {
+      "key": "EQ-83",
+      "summary": "Documentación",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-84",
+      "summary": "Testing",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-85",
+      "summary": "Despliegue",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-86",
+      "summary": "Seguridad",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-89",
+      "summary": "Desarrollo",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    },
+    {
+      "key": "EQ-9",
+      "summary": "UI",
+      "status": "Tareas por hacer",
+      "assignee": "Antonio Salces Alcaraz"
+    },
+    {
+      "key": "EQ-99",
+      "summary": "Refactorización y reparaciones",
+      "status": "Tareas por hacer",
+      "assignee": "Sin asignar"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 **Exposición:** 5 de junio de 2026 · **Orden:** 2 · **Ventana:** 9:15 – 9:30 (máx. 15 min)
 
 > Repositorio-guía del proyecto. Aquí se centraliza la documentación de exposición exigida por el centro: descripción, equipo, enlaces a código y despliegue, PDFs, Jira y Compodoc.  
-> Referencia de requisitos: [guía de exposiciones 2º DAM](https://github.com/) *(repositorio `exposiciones_proyecto_intermodular_25_26_2DAM_M` del profesorado)*.
+> Referencia de requisitos: [guía de exposiciones 2º DAM](https://github.com/CPIFPAlanTuring/exposiciones_proyecto_intermodular_25_26_2DAM_M) *(repositorio `exposiciones_proyecto_intermodular_25_26_2DAM_M` del profesorado)*.
 
 ---
 
@@ -385,8 +385,8 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 | Documento                               | Enlace                                                                                |
 | --------------------------------------- | ------------------------------------------------------------------------------------- |
-| **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) **(PENDIENTE: generar y subir)** |
-| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) **(PENDIENTE: exportar tablero y estadísticas)**   |
+| **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) |
+| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) |
 
 
 > Incluir en el PDF: arquitectura, casos de uso, modelo de datos, manual de despliegue y capturas de Confluence.
@@ -395,25 +395,25 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 ## 📊 Gestión del proyecto (Jira)
 
-**Proyecto Jira:** `CURSO` (compartido frontend/backend)  
-**Herramienta:** Atlassian Jira · trazabilidad en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)
+**Proyecto Jira (TFG / equipo):** [`EQ` — Equipo_Sonrisa](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/summary)  
+**Tablero:** [Kanban EQ](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)  
+**Trazabilidad en código (curso Cursor):** proyecto `CURSO` en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)  
+**PDF exportado:** [./docs/jira.pdf](./docs/jira.pdf) · fuente Markdown: [`docs/jira/jira-resumen.md`](./docs/jira/jira-resumen.md)
 
 ### Resumen para evaluación
 
-
-| Aspecto     | Descripción                                                                         |
-| ----------- | ----------------------------------------------------------------------------------- |
-| **Epics**   | **PENDIENTE:** listar epics principales (p. ej. Auth, Horarios, Tareas, Admin CRUD) |
-| **Reparto** | **PENDIENTE:** breve reparto por miembro (issues asignadas)                         |
-| **Estado**  | **PENDIENTE:** % completado / sprint final                                          |
-| **PDF**     | Exportación con estadísticas, burndown y tablero → `./docs/jira.pdf`                |
-
+| Aspecto     | Descripción |
+| ----------- | ----------- |
+| **Epics**   | **Front/BBDD/UI/Back** (EQ-1, EQ-6, EQ-9, EQ-12, EQ-44), **documentación** (EQ-355–356), **despliegue** (EQ-357), **exposición** (EQ-358), **calidad** (EQ-359). Detalle en el PDF. |
+| **Reparto** | Francisco Cobo **135** · Ángela Mora **86** · Antonio Salces **73** · sin asignar **66** (sobre 360 issues). |
+| **Estado**  | **66,7 %** en categoría *Listo* (240/360 finalizadas); 34 en revisión, 7 en curso, 79 por hacer (mayo 2026). |
+| **PDF**     | [./docs/jira.pdf](./docs/jira.pdf) — estadísticas, epics y reparto (exportado vía MCP Atlassian). |
 
 ### Captura del tablero
 
-> Añadir captura actualizada antes del 5 de junio.
+[Abrir tablero en Jira](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)
 
-Tablero Jira
+> Añadir captura PNG en `./assets/jira/tablero-eq.png` antes del **5 de junio** (menú del tablero → captura de pantalla) y referenciarla aquí si el centro lo exige en el README.
 
 ---
 

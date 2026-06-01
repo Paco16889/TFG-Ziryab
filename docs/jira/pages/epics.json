@@ -1,0 +1,1046 @@
+{
+  "issues": [
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10033",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10033",
+      "key": "EQ-1",
+      "fields": {
+        "summary": "Tareas front",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2025-10-10T12:41:16.857+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/user?accountId=712020%3Ae876ff37-00dd-46c0-a723-9e2a4d37956c",
+          "accountId": "712020:e876ff37-00dd-46c0-a723-9e2a4d37956c",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png"
+          },
+          "displayName": "Ángela Mora",
+          "active": true,
+          "timeZone": "Europe/Andorra",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-11-19T12:25:52.035+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10041",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10041",
+      "key": "EQ-6",
+      "fields": {
+        "summary": "Tareas BBDD",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2025-10-10T12:50:02.473+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/user?accountId=712020%3Ae876ff37-00dd-46c0-a723-9e2a4d37956c",
+          "accountId": "712020:e876ff37-00dd-46c0-a723-9e2a4d37956c",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/b63c68052dd272acd5849068c1e7b036?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-5.png"
+          },
+          "displayName": "Ángela Mora",
+          "active": true,
+          "timeZone": "Europe/Andorra",
+          "accountType": "atlassian"
+        },
+        "updated": "2026-05-23T11:40:11.946+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10046",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10046",
+      "key": "EQ-9",
+      "fields": {
+        "summary": "UI",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2025-10-10T13:01:44.794+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/user?accountId=6151adb6bfa2c1006b45bea7",
+          "accountId": "6151adb6bfa2c1006b45bea7",
+          "emailAddress": "asalalc1312@g.educaand.es",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6151adb6bfa2c1006b45bea7/78b3a962-6b7c-457e-b9be-9eacd029b403/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6151adb6bfa2c1006b45bea7/78b3a962-6b7c-457e-b9be-9eacd029b403/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6151adb6bfa2c1006b45bea7/78b3a962-6b7c-457e-b9be-9eacd029b403/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6151adb6bfa2c1006b45bea7/78b3a962-6b7c-457e-b9be-9eacd029b403/32"
+          },
+          "displayName": "Antonio Salces Alcaraz",
+          "active": true,
+          "timeZone": "Europe/Madrid",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-11-17T10:38:21.264+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10068",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10068",
+      "key": "EQ-12",
+      "fields": {
+        "summary": "Estructuración",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2025-10-14T10:17:20.153+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/user?accountId=712020%3Af0bde6da-ae39-47d1-8128-d7e41ede0a43",
+          "accountId": "712020:f0bde6da-ae39-47d1-8128-d7e41ede0a43",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/3d7d75071f20bd55ea264c901f5ba7fc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFC-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/3d7d75071f20bd55ea264c901f5ba7fc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFC-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/3d7d75071f20bd55ea264c901f5ba7fc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFC-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/3d7d75071f20bd55ea264c901f5ba7fc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFC-1.png"
+          },
+          "displayName": "Francisco Cobo",
+          "active": true,
+          "timeZone": "Europe/Madrid",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-11-17T10:38:15.594+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10358",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10358",
+      "key": "EQ-44",
+      "fields": {
+        "summary": "Tareas Back",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-01-16T09:09:13.838+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-01-16T09:09:41.043+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10391",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10391",
+      "key": "EQ-45",
+      "fields": {
+        "summary": "Compose",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-01-22T09:50:28.880+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-01-22T09:51:33.122+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10392",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10392",
+      "key": "EQ-46",
+      "fields": {
+        "summary": "Extracción de datos",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-01-22T09:51:05.109+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-01-22T09:51:45.196+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10393",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10393",
+      "key": "EQ-47",
+      "fields": {
+        "summary": "DI",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-01-22T09:51:10.457+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-01-22T09:51:55.202+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10621",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10621",
+      "key": "EQ-83",
+      "fields": {
+        "summary": "Documentación",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-21T11:25:25.596+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:03.200+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10622",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10622",
+      "key": "EQ-84",
+      "fields": {
+        "summary": "Testing",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-21T11:25:32.461+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:08.965+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10623",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10623",
+      "key": "EQ-85",
+      "fields": {
+        "summary": "Despliegue",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-21T11:25:38.877+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:14.518+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10624",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10624",
+      "key": "EQ-86",
+      "fields": {
+        "summary": "Seguridad",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-21T11:26:44.499+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:23.850+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10627",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10627",
+      "key": "EQ-89",
+      "fields": {
+        "summary": "Desarrollo",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-21T18:24:14.168+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:29.755+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10637",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/10637",
+      "key": "EQ-99",
+      "fields": {
+        "summary": "Refactorización y reparaciones",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-03-22T09:29:02.177+0100",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": null,
+        "assignee": null,
+        "updated": "2026-03-22T12:13:39.800+0100",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "11265",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/11265",
+      "key": "EQ-355",
+      "fields": {
+        "summary": "📚 Documentación - README y Guías del Proyecto",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-05-26T16:38:14.798+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": "Epic para completar toda la documentación del README del proyecto, incluyendo índice de contenidos, equipo, explicación con capturas, módulos del ciclo, enlaces a repositorios y artefacto en producción.",
+        "assignee": null,
+        "updated": "2026-05-26T16:38:15.097+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "11264",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/11264",
+      "key": "EQ-356",
+      "fields": {
+        "summary": "📖 Documentación Técnica - PDFs y Compodoc",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-05-26T16:38:14.798+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": "Epic para generar documentación técnica: PDF unificado del proyecto, PDF de Jira con estadísticas, y despliegue de Compodoc del frontend Angular.",
+        "assignee": null,
+        "updated": "2026-05-26T16:38:15.096+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "11266",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/11266",
+      "key": "EQ-357",
+      "fields": {
+        "summary": "🚀 Despliegue - Backend y Frontend en Producción",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-05-26T16:38:15.277+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": "Epic para desplegar la aplicación en producción: backend Node.js con Express, Prisma y PostgreSQL, y frontend Angular, ambos accesibles públicamente.",
+        "assignee": null,
+        "updated": "2026-05-26T16:38:15.336+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "11267",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/11267",
+      "key": "EQ-358",
+      "fields": {
+        "summary": "🎤 Exposición - Presentación y Demo (5 de junio)",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-05-26T16:38:15.696+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": "Epic para preparar la exposición del proyecto: presentación, demo estable con datos de prueba, plan B para fallos técnicos, y ensayo del tiempo (máximo 15 minutos).",
+        "assignee": null,
+        "updated": "2026-05-26T16:38:15.760+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "11268",
+      "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issue/11268",
+      "key": "EQ-359",
+      "fields": {
+        "summary": "✅ Calidad Técnica - Revisión de Usabilidad, UX, Seguridad y Arquitectura",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/issuetype/10039",
+          "id": "10039",
+          "description": "Una colección de errores, historias y tareas relacionadas.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "47f0eae0-c829-47a3-aa82-7875b5f6ea7d",
+          "hierarchyLevel": 1
+        },
+        "created": "2026-05-26T16:38:16.574+0200",
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/project/10034",
+          "id": "10034",
+          "key": "EQ",
+          "name": "Equipo_Sonrisa",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "description": "Epic para revisar y mejorar la calidad técnica del proyecto: usabilidad, UI/UX, seguridad básica, buenas prácticas y documentación de arquitectura.",
+        "assignee": null,
+        "updated": "2026-05-26T16:38:16.620+0200",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/status/10036",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/",
+          "name": "Tareas por hacer",
+          "id": "10036",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/768a9c89-e2aa-4570-9776-f95061ce6be3/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        }
+      }
+    }
+  ],
+  "isLast": true
+}
