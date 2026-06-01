@@ -276,11 +276,15 @@ Plantilla exigida por el centro: por cada módulo se indican **objetivos cubiert
 | Componentes por rol | `angular/src/app/pages/alumno/`, `profesor/`, `admin/`          |
 | Estilos Tailwind    | Componentes `.html` + `tailwind.config.js`                      |
 | Traducciones        | `angular/src/assets/i18n/es.json` (y `en`, `de`)                |
+| Página About        | `angular/src/app/pages/shared/about/about.component.html`       |
+| Assets About (iconos / equipo) | `angular/src/assets/about/icons/`, `angular/src/assets/about/team/` |
+| Auditoría WCAG (About + plan global) | `angular/docs/accessibility/WCAG-AUDIT.md` |
 
 
 **Limitaciones / futuro**
 
-- Auditoría WCAG completa pendiente; algunos iconos externos en la página *About* deberían migrarse a assets locales del repo.
+- Ampliar auditoría WCAG al resto de pantallas (login, admin CRUD, modales); ver hallazgos pendientes en `WCAG-AUDIT.md`.
+- Sustituir avatar SVG de Francisco por foto en `assets/about/team/` cuando esté en el repo de exposición (`angela.png` y `antonio.png` ya en `angular/src/assets/about/team/`).
 
 ---
 
@@ -450,6 +454,8 @@ Marcar cuando esté listo (requisitos del centro):
 - URLs de GitHub (frontend, backend, este repo) verificadas.
 - Frontend en producción accesible ([ziryabfront.onrender.com](https://ziryabfront.onrender.com/)) + credenciales de prueba documentadas.
 - `./docs/documentacion.pdf` y `./docs/jira.pdf` subidos y enlazados.
+- Enlace a **GitHub Actions** (CI/CD) en «Acceso a Datos · Servidores y APIs» → evidencias, si el workflow existe en los repos.
+- Revisar hallazgos WCAG globales en `angular/docs/accessibility/WCAG-AUDIT.md` (skip link, `document.title`, etc.).
 - Compodoc desplegado y URL activa durante la evaluación.
 - API y Swagger respondiendo en Render.
 - Ensayo de exposición ≤ **15 minutos** (orden **2**, 9:15–9:30).
