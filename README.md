@@ -1,11 +1,22 @@
-# TFG-Ziryab
+# Ziryab — Plataforma de gestión educativa
+
+**Proyecto Intermodular · 2º DAM (turno de mañana)**  
+**Centro:** CPIFP Alan Turing (Málaga) · **Curso:** 2025/2026  
+**Exposición:** 5 de junio de 2026 · **Orden:** 2 · **Ventana:** 9:15 – 9:30 (máx. 15 min)
+
+> Repositorio-guía del proyecto. Aquí se centraliza la documentación de exposición exigida por el centro: descripción, equipo, enlaces a código y despliegue, PDFs, Jira y Compodoc.  
+> Referencia de requisitos: [guía de exposiciones 2º DAM](https://github.com/CPIFPAlanTuring/exposiciones_proyecto_intermodular_25_26_2DAM_M) *(repositorio `exposiciones_proyecto_intermodular_25_26_2DAM_M` del profesorado)*.
+
+---
 
 ## 📑 Índice
 
-- [👥 Equipo](#-equipo)
-  - [Stack del proyecto](#-stack-del-proyecto)
-- [📖 Descripción del Proyecto](#-descripción-del-proyecto)
-- [📚 Aportación por Módulos](#-aportación-por-módulos)
+- [👥 Personas y equipo](#-personas-y-equipo)
+- [📖 Descripción del proyecto](#-descripción-del-proyecto)
+- [🏗️ Arquitectura y stack](#️-arquitectura-y-stack)
+- [📦 Repositorios de código](#-repositorios-de-código)
+- [🚀 Despliegue en producción](#-despliegue-en-producción)
+- [📚 Aportación por módulos](#-aportación-por-módulos)
   - [Acceso a Datos](#acceso-a-datos)
   - [Programación Multimedia y Dispositivos Móviles](#programación-multimedia-y-dispositivos-móviles)
   - [Programación de Servicios y Procesos](#programación-de-servicios-y-procesos)
@@ -13,85 +24,192 @@
   - [Servidores y APIs](#servidores-y-apis)
   - [Iniciativa para la Empleabilidad II](#iniciativa-para-la-empleabilidad-ii)
   - [Sistemas de Gestión Empresarial](#sistemas-de-gestión-empresarial)
-- [📦 Repositorios](#-repositorios)
-- [🚀 Despliegue](#-despliegue)
-- [📄 Documentación](#-documentación)
-- [📊 Gestión del Proyecto (Jira)](#-gestión-del-proyecto-jira)
-- [🧩 Compodoc](#-compodoc)
-
----
-## 👥 Equipo
-
-> *"Una frase molona del equipo aquí"*
-
-### 🛠️ Stack del Proyecto
-
-| Capa | Tecnología |
-|---|---|
-| **Frontend** | Angular 19+ Standalone |
-| **Backend** | Node.js + Express |
-| **ORM** | Prisma |
-| **Base de datos** | PostgreSQL |
-| **Documentación** | Compodoc |
-| **Gestión** | Jira |
+- [📄 Documentación unificada](#-documentación-unificada)
+- [📊 Gestión del proyecto (Jira)](#-gestión-del-proyecto-jira)
+- [🧩 Documentación de código (Compodoc)](#-documentación-de-código-compodoc)
+- [✅ Checklist antes de la exposición](#-checklist-antes-de-la-exposición)
 
 ---
 
-### Ángela Mora Mata
+## 👥 Personas y equipo
 
-<img src="./assets/team/nombre1.jpg" width="100" style="border-radius:50%"/>
+> *"Digitalizar la gestión del centro para que profesores y alumnos dediquen el tiempo a enseñar y aprender, no al papeleo."*
 
-| | |
-|---|---|
-| 🐙 **GitHub** | [@usuario](https://github.com/angela1006) |
-| 💼 **LinkedIn** | [Nombre](https://linkedin.com/in/usuario) |
+| Miembro                            | Rol en el proyecto | Correo educaAnd             |
+| ---------------------------------- | ------------------ | --------------------------- |
+| **Francisco de Asís Cobo Sánchez** | Full Stack         | `fcobsan076@g.educaand.es`  |
+| **Antonio Salces Alcaraz**         | Full Stack         | `asalalc1312@g.educaand.es` |
+| **Ángela Mora Mata**               | Full Stack         | `amormat1010@g.educaand.es` |
 
-> *"Frase personal"*
+### Stack del proyecto
 
----
-
-### 🧑‍💻 Antonio Salces Alcaraz
-
-<img src="./assets/team/nombre2.jpg" width="100" style="border-radius:50%"/>
-
-| | |
-|---|---|
-| 🐙 **GitHub** | [@usuario](https://github.com/usuario) |
-| 💼 **LinkedIn** | [Nombre](https://linkedin.com/in/usuario) |
-
-> *"Frase personal"*
-
----
-
-### 🧑‍💻 Francisco Cobo Sánchez
-
-<img src="./assets/team/nombre3.jpg" width="100" style="border-radius:50%"/>
-
-| | |
-|---|---|
-| 🐙 **GitHub** | [@usuario](https://github.com/Paco16889) |
-| 🐙 **GitHub** | [@usuario](https://github.com/yo164) |
-| 💼 **LinkedIn** | [Nombre](https://linkedin.com/in/usuario) |
-
-> *""*
+| Capa               | Tecnología                                       |
+| ------------------ | ------------------------------------------------ |
+| **Frontend**       | Angular 19 (standalone components)               |
+| **Estilos**        | Tailwind CSS + SCSS puntual                      |
+| **Backend**        | Node.js + Express 5 + TypeScript (ESM)           |
+| **ORM / BD**       | Prisma + PostgreSQL                              |
+| **Autenticación**  | Firebase Auth + JWT (cookies httpOnly / Bearer)  |
+| **Almacenamiento** | Cloudinary (ficheros)                            |
+| **API docs**       | Swagger (`swagger-jsdoc` + `swagger-ui-express`) |
+| **Gestión**        | Jira (proyecto `EQ` / trazabilidad `CURSO` en código) |
+| **Doc. código**    | Compodoc                                         |
+| **Despliegue**     | Render (frontend + API)                          |
 
 ---
 
+<table width="100%">
+<tr>
+<td valign="top"><h3>🧑‍💻 Francisco de Asís Cobo Sánchez</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/francisco.jpg"><img src="./assets/team/francisco.jpg" width="180" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/yo164">@yo164</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/francisco-cobo-sánchez-3036b1349/">Perfil</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
 
+---
 
+<table width="100%">
+<tr>
+<td valign="top"><h3>🧑‍💻 Antonio Salces Alcaraz</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/Salces_Alcaraz_Antonio.png"><img src="./assets/team/Salces_Alcaraz_Antonio.png" width="180" alt="Foto de Antonio Salces Alcaraz"/></a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/AntonioSalces">@AntonioSalces</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/antoniosalces/">Perfil</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
 
+---
 
-## 📖 Descripción del Proyecto
+<table width="100%">
+<tr>
+<td valign="top"><h3>🧑‍💻 Ángela Mora Mata</h3></td>
+<td align="right" valign="middle" rowspan="2" width="200">
+<a href="./assets/team/angela.jpg"><img src="./assets/team/angela.jpg" width="180" alt="Foto de Ángela Mora Mata"/></a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<table>
+<tr><td>🐙 <strong>GitHub</strong></td><td><a href="https://github.com/angela1006">@angela1006</a></td></tr>
+<tr><td>💼 <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/ángela-mora-mata-b8458a329/">Perfil</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
 
-> **Ziryab** es una aplicación de gestión educativa que permite organizar un centro de forma integral: grupos, horarios, asignaturas y usuarios. Ofrece perfiles de **administrador**, **profesor** y **alumno**, para que cada rol gestione y consulte su parte del centro. Así unifica la coordinación del equipo docente y el seguimiento académico del estudiantado en una sola plataforma.
+---
 
-![Screenshot principal](./assets/screenshots/main.png)
+## 📖 Descripción del proyecto
 
-## 📚 Aportación por Módulos
+**Ziryab** es una plataforma web de gestión educativa para **cualquier centro donde se impartan clases**: centros públicos y privados, academias, conservatorios, centros de formación profesional, etc. Sustituye procesos en papel y hojas de cálculo dispersas por un único entorno digital con **tres roles** (`STUDENT`, `TEACHER`, `ADMIN`).
+
+### Problema que resuelve
+
+Los centros gestionan matrículas, horarios, asistencia, tareas, calificaciones e incidencias con herramientas heterogéneas. Eso genera duplicidad de datos, errores de coordinación entre profesorado y administración, y poca visibilidad para el alumnado.
+
+### Solución
+
+Aplicación **SPA** (Angular) consumiendo una **API REST** (Node/Express) sobre **PostgreSQL**, con autenticación híbrida **Firebase + JWT** del backend propio.
+
+### Funcionalidades principales
+
+| Área              | Descripción                                                                                                    |
+| ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Alumno**        | Dashboard, clases, horario, temario, tareas y entregas, notas, ficha de usuario, notificaciones en tiempo real |
+| **Profesor**      | Clases asignadas, pasar lista, tareas por asignatura, gestión de notas, horario, menú de clase                 |
+| **Administrador** | CRUD de alumnos, profesores, asignaturas, ciclos, grupos, horarios semanales, incidencias, anuncios, informes  |
+| **Transversal**   | i18n (es / en / de), calendario integrado, avisos SSE, subida de ficheros (Cloudinary), documentación Swagger  |
+
+### Capturas
+
+Vista previa en miniatura; **clic en la imagen** para abrirla a tamaño completo.
+
+| Vista               | Captura |
+| ------------------- | ------- |
+| Login y roles       | <a href="./assets/screenshots/login.png"><img src="./assets/screenshots/login.png" width="400" alt="Login y roles"/></a> |
+| Panel principal     | <a href="./assets/screenshots/principal.png"><img src="./assets/screenshots/principal.png" width="400" alt="Panel principal"/></a> |
+| Clases              | <a href="./assets/screenshots/clases.png"><img src="./assets/screenshots/clases.png" width="400" alt="Clases"/></a> |
+| Gestión             | <a href="./assets/screenshots/gestion.png"><img src="./assets/screenshots/gestion.png" width="400" alt="Gestión"/></a> |
+| Panel administrador | <a href="./assets/screenshots/admin-dashboard.png"><img src="./assets/screenshots/admin-dashboard.png" width="400" alt="Panel administrador"/></a> |
+
+### Diagrama de arquitectura
+
+<a href="./assets/diagramas/arquitectura.png"><img src="./assets/diagramas/arquitectura.png" width="700" alt="Diagrama de arquitectura de Ziryab"/></a>
+
+---
+
+## 🏗️ Arquitectura y stack
+
+| Componente        | Tecnología / URL                                                                             |
+| ----------------- | -------------------------------------------------------------------------------------------- |
+| **Frontend**      | Angular 19, Tailwind — [ziryabfront.onrender.com](https://ziryabfront.onrender.com/)         |
+| **API**           | Node.js, Express 5, Swagger — [ziryabback.onrender.com](https://ziryabback.onrender.com/api) |
+| **Base de datos** | PostgreSQL + Prisma ORM                                                                      |
+| **Autenticación** | Firebase Auth + JWT (backend)                                                                |
+| **Ficheros**      | Cloudinary                                                                                   |
+| **Tiempo real**   | SSE (notificaciones)                                                                         |
+
+---
+
+## 📦 Repositorios de código
+
+| Repositorio  | Descripción            | URL                                                     |
+| ------------ | ---------------------- | ------------------------------------------------------- |
+| **Frontend** | Cliente Angular 19     | [Pincha aquí](https://github.com/Paco16889/ZiryabFront) |
+| **Backend**  | API REST Node + Prisma | [Pincha aquí](https://github.com/yo164/ZiryabBack)      |
+| **Guía TFG** | Este repositorio       | [Pincha aquí](https://github.com/Paco16889/TFG-Ziryab)  |
+
+---
+
+## 🚀 Despliegue en producción
+
+| Servicio                      | URL                                                                                  | Notas                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------ |
+| **API (producción)**          | [https://ziryabback.onrender.com/api](https://ziryabback.onrender.com/api)           | Desplegada en Render                       |
+| **Swagger / API docs**        | [https://ziryabback.onrender.com/api-docs](https://ziryabback.onrender.com/api-docs) | Documentación interactiva de endpoints     |
+| **Health check**              | [https://ziryabback.onrender.com/health](https://ziryabback.onrender.com/health)     | Monitorización básica                      |
+| **Aplicación web (frontend)** | [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/)               | SPA Angular desplegada en Render           |
+| **Compodoc (servidor)**       | [https://antoniosalces.github.io/ziryab-compodoc/index.html](https://antoniosalces.github.io/ziryab-compodoc/index.html) | Desplegado en GitHub Pages                 |
+
+### Credenciales de prueba para el tribunal
+
+> Acceso en [https://ziryabfront.onrender.com/](https://ziryabfront.onrender.com/) con autenticación **Firebase** (proyecto `ziryab-7006e`).
+
+| Rol               | Email                 | Contraseña       |
+| ----------------- | --------------------- | ---------------- |
+| **Alumno**        | `alumno2@ziryab.es`   | `Alumno123456`   |
+| **Profesor**      | `profesor1@ziryab.es` | `Profesor123456` |
+| **Administrador** | `admin1@ziryab.es`    | `Admin123456`    |
+
+---
+
+## 📚 Aportación por módulos
+
+Por cada módulo: **aportación al proyecto**, **evidencias en Jira** (tablero `EQ`) y, cuando aplica, **rutas en repositorio** (front `angular/`, back `node/`).
+
+---
 
 ### Acceso a Datos
 
-**Aportación al proyecto:** En Ziryab, la parte vinculada a este módulo se centró sobre todo en **Angular**: organización de la capa de acceso a datos mediante **servicios** (`providedIn: 'root'`), **inyección de dependencias** con `inject()`, **pipes** para transformar información en plantillas y **signals** para el estado reactivo de la UI. Así se separa la lógica de consulta y gestión de datos de los componentes, reutilizando servicios entre pantallas de alumno, profesor y administración.
+**Profesor/a:** Juan Antonio García Gómez
+
+**Aportación al proyecto:** En Ziryab, la parte vinculada a este módulo en el **cliente** se centró en **Angular**: organización de la capa de acceso a datos mediante **servicios** (`providedIn: 'root'`), **inyección de dependencias** con `inject()`, **pipes** para transformar información en plantillas y **signals** para el estado reactivo de la UI. La **persistencia relacional** (Prisma, migraciones, seeds) se documenta en [Servidores y APIs](#servidores-y-apis).
 
 **Evidencias (Jira):**
 - [EQ-30](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-30) — Acceso a datos del backend (capa de servicios en el front)
@@ -101,9 +219,13 @@
 - [EQ-298](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-298) — Migración de assignments y servicios Angular
 - [EQ-333](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-333) — `StudentPasswordService` (`inject()`, `core/services/`)
 
+**Evidencias en repositorio:** `node/prisma/schema.prisma`, `node/prisma/migrations/`, `node/prisma/seed.ts`
+
 ---
 
 ### Programación Multimedia y Dispositivos Móviles
+
+**Profesor/a:** David Hormigo Ramírez
 
 **Aportación al proyecto:** La interfaz de Ziryab se diseñó con enfoque **mobile first** y diseño **responsivo**, de modo que la web se adapta correctamente a móvil, tablet y escritorio. Además, se desarrolló una **aplicación Android** (con poca trazabilidad en Jira) orientada a profesor y alumno, centrada en el día a día en el aula: pasar lista, consultar horarios, justificar faltas, entregar tareas y revisarlas.
 
@@ -114,11 +236,15 @@
 - [EQ-204](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-204) · [EQ-211](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-211) — Gestión de tareas (profesor y alumno; también en app Android)
 - App Android (lista, horarios, faltas, tareas): sin ticket dedicado en Jira
 
+**Limitaciones / futuro:** no hay APK publicada; la aportación PMDM se centra en **web responsive** y PWA como mejora futura.
+
 ---
 
 ### Programación de Servicios y Procesos
 
-**Aportación al proyecto:** En el frontend se aplicaron conceptos de **servicios** y **procesos asíncronos**: servicios Angular (`providedIn: 'root'`) que encapsulan la comunicación HTTP con el backend mediante **Observables**, flujos de autenticación (`AuthService`), gestión de tareas (profesor y alumno), credenciales y notificaciones. Los componentes delegan en estos servicios la lógica de negocio y el manejo de respuestas, separando la ejecución en segundo plano de la capa de presentación.
+**Profesor/a:** David Hormigo Ramírez
+
+**Aportación al proyecto:** En el frontend se aplicaron **servicios** y **procesos asíncronos**: servicios Angular que encapsulan HTTP con **Observables**, flujos de autenticación (`AuthService`), gestión de tareas, credenciales y notificaciones. En el **backend**, servicios Node desacoplados (`routes → controller → service`), procesos de negocio (sesiones, entregas, asistencia) y **SSE** para notificaciones.
 
 **Evidencias (Jira):**
 - [EQ-168](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-168) — Refactor de `AuthService` (Firebase/backend, `localStorage`, sustitución de `.toPromise()`)
@@ -129,9 +255,13 @@
 - [EQ-217](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-217) · [EQ-218](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-218) · [EQ-219](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-219) — Módulo de notificaciones (modelo, API/tiempo real, componente con signals)
 - [EQ-229](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-229) · [EQ-344](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-344) — UI de notificaciones
 
+**Evidencias en repositorio:** `angular/src/app/core/services/notifications.service.ts`, `node/src/modules/notifications/notifications.sse.ts`
+
 ---
 
 ### Desarrollo de Interfaces
+
+**Profesor/a:** Carmen Campos Fernández
 
 **Aportación al proyecto:** Desarrollo de la interfaz con **Angular 19+ standalone**, **Tailwind CSS** y **SCSS** puntual: pantallas por rol (admin, profesor, alumno, shared), componentes reutilizables, estados de carga/vacío/éxito e **internacionalización** (es/en/de). Destacan el **modo oscuro** global con toggle y persistencia, los **arreglos recientes de CSS** en el front y el rediseño de patrones de listado y acciones CRUD.
 
@@ -144,11 +274,15 @@
 - [EQ-348](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-348) · [EQ-349](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-349) · [EQ-350](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-350) · [EQ-351](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-351) — Traducción de pantallas (admin, profesor, alumno, shared)
 - [EQ-210](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-210) · [EQ-203](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-203) — Interfaces de tareas (alumno y profesor)
 
+**Evidencias en repositorio:** `angular/src/app/app.routes.ts`, `angular/src/app/core/guards/`, `angular/src/assets/i18n/`
+
 ---
 
 ### Servidores y APIs
 
-**Aportación al proyecto:** Backend con **Node.js + Express**, **Prisma** y **PostgreSQL**: API REST modular por dominio (alumnos, profesores, tareas, horarios, notificaciones, asignaciones…), **autenticación/autorización** por roles, validación con **Zod** y documentación en **Swagger** (`/api-docs`). Incluye migraciones Prisma, despliegue en **Render** y mantenimiento de contratos API para el front.
+**Profesor/a:** Juan Antonio García Gómez
+
+**Aportación al proyecto:** Backend con **Node.js + Express 5**, **Prisma** y **PostgreSQL**: API REST modular por dominio (alumnos, profesores, tareas, horarios, notificaciones, asignaciones…), **autenticación/autorización** por roles, validación con **Zod** y documentación en **Swagger** (`/api-docs`). Incluye migraciones Prisma, despliegue en **Render** y mantenimiento de contratos API para el front.
 
 **Evidencias (Jira):**
 - [EQ-24](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-24) — Autenticación con el backend (JWT, middleware `auth`/`authorize`)
@@ -164,18 +298,22 @@
 - [EQ-393](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-393) · [EQ-394](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-394) — Módulo `assignment-substitution` (rutas + transacciones)
 - [EQ-369](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-369) · [EQ-157](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-157) · [EQ-156](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-156) — Despliegue backend, API y BBDD en Render
 
+**Evidencias en repositorio:** `node/src/app.ts`, `node/src/config/swagger.ts`, [API en producción](https://ziryabback.onrender.com/api)
+
 ---
 
 ### Iniciativa para la Empleabilidad II
 
-**Aportación al proyecto:** Trabajo del módulo **no integrado en el código** de Ziryab, pero que **definió la iniciativa y el modelo de negocio** antes del desarrollo. Se analizó el mercado educativo (dependencia de plataformas institucionales poco centralizadas, alternativas como Séneca/PASEN, Moodle, Classroom o ClassDojo) y se formalizó la propuesta en un **Lean Canvas**: problema (servicios poco unificados y poco fluidos), **solución** (una sola plataforma para gestión y comunicación centro–profesorado–alumnado–familias), **segmentos** (centros públicos/privados, docentes con rol administrativo, alumnado y early adopters en redes de innovación), **propuesta de valor** (simplicidad y personalización frente a combinar varias herramientas), **canales** (redes educativas, contacto directo con centros y redes sociales) e **ingresos** (licencia base gratuita con mantenimiento por centro y periodo de prueba). La [presentación inicial intermodular](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) añade **objetivos SMART**, **Project Charter** (roles: Scrum/QA, backend, frontend), **riesgos** (seguridad, suplantación, brecha digital) y **plan de sprints** (15 iteraciones de 2 semanas). La difusión a centros, AMPAs y pilotos complementa el [Despliegue](#-despliegue) técnico.
+**Profesor/a:** Rosa Carmen Alcázar Rosal *(Empresa e Iniciativa Emprendedora II)*
+
+**Aportación al proyecto:** Trabajo del módulo **no integrado en el código** de Ziryab, pero que **definió la iniciativa y el modelo de negocio** antes del desarrollo. Se analizó el mercado educativo (dependencia de plataformas institucionales poco centralizadas, alternativas como Séneca/PASEN, Moodle, Classroom o ClassDojo) y se formalizó la propuesta en un **Lean Canvas**: problema (servicios poco unificados y poco fluidos), **solución** (una sola plataforma para gestión y comunicación centro–profesorado–alumnado–familias), **segmentos** (centros públicos/privados, docentes con rol administrativo, alumnado y early adopters en redes de innovación), **propuesta de valor** (simplicidad y personalización frente a combinar varias herramientas), **canales** (redes educativas, contacto directo con centros y redes sociales) e **ingresos** (licencia base gratuita con mantenimiento por centro y periodo de prueba). La [presentación inicial intermodular](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) añade **objetivos SMART**, **Project Charter** (roles: Scrum/QA, backend, frontend), **riesgos** (seguridad, suplantación, brecha digital) y **plan de sprints** (15 iteraciones de 2 semanas). La difusión a centros, AMPAs y pilotos complementa el [Despliegue en producción](#-despliegue-en-producción) técnico.
 
 **Evidencias (Jira):**
 
 *Entrega académica IPE II (`docs/guion-presentacion-oral/presentacionInicial/`):*
 - [Lean Canvas — Grupo Sonrisa (JPG)](./docs/guion-presentacion-oral/presentacionInicial/Lean%20Canvas%20Grupo%20Sonrisa.jpg) — modelo de negocio (problema, solución, métricas, UVP, segmentos, costes e ingresos)
 - [Presentación inicial — proyecto intermodular (PDF)](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) — charter, SMART, riesgos, plan de sprints y enlace al canvas
-- Memoria unificada del TFG → [Documentación](#-documentación)
+- Memoria unificada del TFG → [Documentación unificada](#-documentación-unificada)
 
 *Trazabilidad en Jira (planificación inicial del TFG, alineada con la iniciativa):*
 - [EQ-18](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-18) — Redactar enunciado del proyecto
@@ -186,6 +324,8 @@
 ---
 
 ### Sistemas de Gestión Empresarial
+
+**Profesor/a:** Miguel Ángel Ronda Carracao
 
 **Aportación al proyecto:** **Ziryab** funciona como un **sistema de gestión integrado** del centro educativo: un único software con **roles** (administrador, profesor, alumno), **datos maestros** (usuarios, grupos, ciclos, asignaturas) y **procesos** (matriculación, asignaciones docentes, horarios, sustituciones, tablón de anuncios, suspensión masiva de clases). El **panel de administración** concentra el mantenimiento de entidades y la coordinación del día a día del centro.
 
@@ -202,49 +342,85 @@
 - [EQ-382](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-382) — Sustituciones docentes (historial y reglas sobre asignaciones)
 - [EQ-324](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-324) — Manuales de usuario por rol (Admin, Teacher, Alumno)
 
----
-
-## 📦 Repositorios
-
-| Repo | URL |
-|---|---|
-| **Frontend** | [🔗 enlace](https://github.com/...) |
-| **Backend** | [🔗 enlace](https://github.com/...) |
+**Evidencias en repositorio:** `angular/src/app/pages/admin/entities/`, `node/src/modules/course/`, `group/`, `enrollments/`
 
 ---
 
-## 🚀 Despliegue
+## 📄 Documentación unificada
 
-| | URL |
-|---|---|
-| **App** | [🔗 enlace](https://...) |
-| **Credenciales de prueba** | usuario: `test@test.com` / pass: `1234` |
+Documentación técnica y de gestión exportada desde **Confluence** y otras fuentes, en un único PDF para el tribunal.
 
----
-
-## 📄 Documentación
-
-| Documento | Enlace |
-|---|---|
-| **PDF unificado** | [🔗 enlace](./docs/documentacion.pdf) |
-| **PDF Jira** | [🔗 enlace](./docs/jira.pdf) |
+| Documento                               | Enlace                                                                                |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) |
+| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) |
 | **Guion presentación oral** (demo, plan B, ensayo) | [📁 carpeta](./docs/guion-presentacion-oral/README.md) |
 | **Presentación inicial IPE** (charter, SMART, riesgos) | [📄 PDF](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) |
 | **Lean Canvas IPE** (Grupo Sonrisa) | [🖼️ JPG](./docs/guion-presentacion-oral/presentacionInicial/Lean%20Canvas%20Grupo%20Sonrisa.jpg) |
 
----
-
-## 📊 Gestión del Proyecto (Jira)
-
-> Resumen del tablero, epics y reparto de tareas
-
-![Tablero Jira](./assets/jira/tablero.png)
+> Incluir en el PDF: arquitectura, casos de uso, modelo de datos, manual de despliegue y capturas de Confluence.
 
 ---
 
-## 🧩 Compodoc
+## 📊 Gestión del proyecto (Jira)
 
-| | |
-|---|---|
-| **Repo** | [🔗 enlace](https://github.com/) |
-| **Servidor** | [🔗 enlace](https://...) |
+**Proyecto Jira (TFG / equipo):** [`EQ` — Equipo_Sonrisa](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/summary)  
+**Tablero:** [Kanban EQ](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)  
+**Trazabilidad en código (curso Cursor):** proyecto `CURSO` en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)  
+**PDF exportado:** [./docs/jira.pdf](./docs/jira.pdf) · fuente Markdown: [`docs/jira/jira-resumen.md`](./docs/jira/jira-resumen.md)
+
+### Resumen para evaluación
+
+| Aspecto     | Descripción |
+| ----------- | ----------- |
+| **Epics**   | **Front/BBDD/UI/Back** (EQ-1, EQ-6, EQ-9, EQ-12, EQ-44), **documentación** (EQ-355–356), **despliegue** (EQ-357), **exposición** (EQ-358), **calidad** (EQ-359). Detalle en el PDF. |
+| **Reparto** | Francisco Cobo **135** · Ángela Mora **86** · Antonio Salces **73** · sin asignar **66** (sobre 360 issues). |
+| **Estado**  | **66,7 %** en categoría *Listo* (240/360 finalizadas); 34 en revisión, 7 en curso, 79 por hacer (mayo 2026). |
+| **PDF**     | [./docs/jira.pdf](./docs/jira.pdf) — estadísticas, epics y reparto (exportado vía MCP Atlassian). |
+
+### Captura del tablero
+
+[Abrir tablero en Jira](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)
+
+> Añadir captura PNG en `./assets/jira/tablero-eq.png` antes del **5 de junio** (menú del tablero → captura de pantalla) y referenciarla aquí si el centro lo exige en el README.
+
+---
+
+## 🧩 Documentación de código (Compodoc)
+
+Generada desde el frontend Angular con **Compodoc**.
+
+| Recurso                           | Enlace                                                            |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **Código fuente documentado**     | Repositorio [ZiryabFront](https://github.com/Paco16889/ZiryabFront) |
+| **HTML generado (en repo)**       | `angular/docs/` (ejecutar `npm run docs:build`)                   |
+| **Servidor público**              | [https://antoniosalces.github.io/ziryab-compodoc/index.html](https://antoniosalces.github.io/ziryab-compodoc/index.html) |
+
+### Comandos locales
+
+```bash
+cd angular
+npm run docs:build    # genera estáticos en docs/
+npm run docs:serve    # servidor local para revisión
+```
+
+---
+
+## ✅ Checklist antes de la exposición
+
+Marcar cuando esté listo (requisitos del centro):
+
+- URL de **este repositorio** registrada en la tabla del repo `exposiciones_proyecto_intermodular_25_26_2DAM_M` (sustituir `PENDIENTE` en la fila del equipo).
+- Fotos del equipo en `./assets/team/` (`francisco.jpg`, `Salces_Alcaraz_Antonio.png`, `angela.jpg`).
+- Diagrama de arquitectura en `./assets/diagramas/arquitectura.png`.
+- Capturas en `./assets/screenshots/` referenciadas en este README (sin enlaces rotos).
+- URLs de GitHub (frontend, backend, este repo) verificadas.
+- Frontend en producción accesible ([ziryabfront.onrender.com](https://ziryabfront.onrender.com/)) + credenciales de prueba documentadas.
+- `./docs/documentacion.pdf` y `./docs/jira.pdf` subidos y enlazados.
+- Compodoc desplegado y URL activa durante la evaluación.
+- API y Swagger respondiendo en Render.
+- Ensayo de exposición ≤ **15 minutos** (orden **2**, 9:15–9:30).
+
+---
+
+*Última actualización: mayo 2026 · Equipo Ziryab — CPIFP Alan Turing*
