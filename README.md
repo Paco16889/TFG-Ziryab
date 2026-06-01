@@ -100,7 +100,7 @@
 <tr>
 <td valign="top"><h3>🧑‍💻 Ángela Mora Mata</h3></td>
 <td align="right" valign="middle" rowspan="2" width="200">
-<a href="./assets/team/angela.jpg"><img src="./assets/team/angela.jpg" width="180" alt="Foto de Ángela Mora Mata"/></a>
+<a href="./assets/team/angela.png"><img src="./assets/team/angela.png" width="180" alt="Foto de Ángela Mora Mata"/></a>
 </td>
 </tr>
 <tr>
@@ -274,7 +274,23 @@ Por cada módulo: **aportación al proyecto**, **evidencias en Jira** (tablero `
 - [EQ-348](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-348) · [EQ-349](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-349) · [EQ-350](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-350) · [EQ-351](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-351) — Traducción de pantallas (admin, profesor, alumno, shared)
 - [EQ-210](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-210) · [EQ-203](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-203) — Interfaces de tareas (alumno y profesor)
 
-**Evidencias en repositorio:** `angular/src/app/app.routes.ts`, `angular/src/app/core/guards/`, `angular/src/assets/i18n/`
+**Evidencias en repositorio:**
+
+| Evidencia           | Ubicación                                                       |
+| ------------------- | --------------------------------------------------------------- |
+| Rutas y guards      | `angular/src/app/app.routes.ts`, `angular/src/app/core/guards/` |
+| Componentes por rol | `angular/src/app/pages/alumno/`, `profesor/`, `admin/`          |
+| Estilos Tailwind    | Componentes `.html` + `tailwind.config.js`                      |
+| Traducciones        | `angular/src/assets/i18n/es.json` (y `en`, `de`)                |
+| Página About        | `angular/src/app/pages/shared/about/about.component.html`       |
+| Assets About (iconos / equipo) | `angular/src/assets/about/icons/`, `angular/src/assets/about/team/` |
+| Auditoría WCAG (About + plan global) | `angular/docs/accessibility/WCAG-AUDIT.md` |
+
+
+**Limitaciones / futuro**
+
+- Ampliar auditoría WCAG al resto de pantallas (login, admin CRUD, modales); ver hallazgos pendientes en `WCAG-AUDIT.md`.
+- Sustituir avatar SVG de Francisco por foto en `assets/about/team/` cuando esté en el repo de exposición (`angela.png` y `antonio.png` ya en `angular/src/assets/about/team/`).
 
 ---
 
@@ -411,12 +427,14 @@ npm run docs:serve    # servidor local para revisión
 Marcar cuando esté listo (requisitos del centro):
 
 - URL de **este repositorio** registrada en la tabla del repo `exposiciones_proyecto_intermodular_25_26_2DAM_M` (sustituir `PENDIENTE` en la fila del equipo).
-- Fotos del equipo en `./assets/team/` (`francisco.jpg`, `Salces_Alcaraz_Antonio.png`, `angela.jpg`).
+- Fotos del equipo en `./assets/team/` (`francisco.jpg`, `Salces_Alcaraz_Antonio.png`, `angela.png`).
 - Diagrama de arquitectura en `./assets/diagramas/arquitectura.png`.
 - Capturas en `./assets/screenshots/` referenciadas en este README (sin enlaces rotos).
 - URLs de GitHub (frontend, backend, este repo) verificadas.
 - Frontend en producción accesible ([ziryabfront.onrender.com](https://ziryabfront.onrender.com/)) + credenciales de prueba documentadas.
 - `./docs/documentacion.pdf` y `./docs/jira.pdf` subidos y enlazados.
+- Enlace a **GitHub Actions** (CI/CD) en «Acceso a Datos · Servidores y APIs» → evidencias, si el workflow existe en los repos.
+- Revisar hallazgos WCAG globales en `angular/docs/accessibility/WCAG-AUDIT.md` (skip link, `document.title`, etc.).
 - Compodoc desplegado y URL activa durante la evaluación.
 - API y Swagger respondiendo en Render.
 - Ensayo de exposición ≤ **15 minutos** (orden **2**, 9:15–9:30).
