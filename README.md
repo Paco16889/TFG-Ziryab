@@ -380,25 +380,20 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 ## 📊 Gestión del proyecto (Jira)
 
-**Proyecto Jira (TFG / equipo):** [`EQ` — Equipo_Sonrisa](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/summary)  
+**Proyecto Jira (TFG / equipo):** [Equipo_Sonrisa (`EQ`)](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards/34)  
 **Tablero:** [Kanban EQ](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)  
-**Trazabilidad en código (curso Cursor):** proyecto `CURSO` en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)  
-**PDF exportado:** [./docs/jira.pdf](./docs/jira.pdf) · fuente Markdown: [`docs/jira/jira-resumen.md`](./docs/jira/jira-resumen.md)
+**Trazabilidad en código (curso Cursor):** proyecto `CURSO` en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)
 
 ### Resumen para evaluación
 
 | Aspecto     | Descripción |
 | ----------- | ----------- |
-| **Epics**   | **Front/BBDD/UI/Back** (EQ-1, EQ-6, EQ-9, EQ-12, EQ-44), **documentación** (EQ-355–356), **despliegue** (EQ-357), **exposición** (EQ-358), **calidad** (EQ-359). Detalle en el PDF. |
-| **Reparto** | Francisco Cobo **135** · Ángela Mora **86** · Antonio Salces **73** · sin asignar **66** (sobre 360 issues). |
-| **Estado**  | **66,7 %** en categoría *Listo* (240/360 finalizadas); 34 en revisión, 7 en curso, 79 por hacer (mayo 2026). |
-| **PDF**     | [./docs/jira.pdf](./docs/jira.pdf) — estadísticas, epics y reparto (exportado vía MCP Atlassian). |
+| **Epics**   | Front, BBDD, UI, Estructuración, Documentación, Despliegue, Exposición, Calidad técnica (detalle en el PDF) |
+| **Reparto** | Ángela Mora, Antonio Salces Alcaraz y Francisco Cobo (tareas asignadas; ver PDF) |
+| **Estado**  | ~99 % de actividades de trabajo completadas (junio 2026) |
+| **PDF**     | [Informe Jira — estadísticas, tablero y burndown](./docs/jira.pdf) |
 
-### Captura del tablero
-
-[Abrir tablero en Jira](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards)
-
-> Añadir captura PNG en `./assets/jira/tablero-eq.png` antes del **5 de junio** (menú del tablero → captura de pantalla) y referenciarla aquí si el centro lo exige en el README.
+El informe incluye resumen de estado (captura del panel Jira), tareas por persona, distribución por columnas, progreso por épica y gráfico de burndown del proyecto.
 
 ---
 
