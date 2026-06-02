@@ -1,0 +1,17 @@
+{
+  "name": "ziryab-jira-pdf-report",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "report": "node generate-report.mjs",
+    "render": "node render-pdf.mjs",
+    "docx": "node render-docx.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "chartjs-node-canvas": "^5.0.0",
+    "docx": "^9.5.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.2.1"
+  }
+}

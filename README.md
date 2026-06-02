@@ -390,7 +390,7 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 | Documento                               | Enlace                                                                                |
 | --------------------------------------- | ------------------------------------------------------------------------------------- |
 | **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) **(PENDIENTE: generar y subir)** |
-| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) **(PENDIENTE: exportar tablero y estadísticas)**   |
+| **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf)                                                    |
 
 
 > Incluir en el PDF: arquitectura, casos de uso, modelo de datos, manual de despliegue y capturas de Confluence.
@@ -399,25 +399,19 @@ Documentación técnica y de gestión exportada desde **Confluence** y otras fue
 
 ## 📊 Gestión del proyecto (Jira)
 
-**Proyecto Jira:** `CURSO` (compartido frontend/backend)  
-**Herramienta:** Atlassian Jira · trazabilidad en commits (`[CURSO-XX]` / `tipo(CURSO-XX):`)
+**Proyecto Jira:** [Equipo_Sonrisa (`EQ`)](https://g-team-ddm5j4dr.atlassian.net/jira/software/projects/EQ/boards/34)  
+**Herramienta:** Atlassian Jira · tablero de equipo y seguimiento de tareas del TFG
 
 ### Resumen para evaluación
 
+| Aspecto     | Descripción |
+| ----------- | ----------- |
+| **Epics**   | Front, BBDD, UI, Estructuración, Documentación, Despliegue, Exposición, Calidad técnica (detalle en el PDF) |
+| **Reparto** | Ángela Mora, Antonio Salces Alcaraz y Francisco Cobo (tareas asignadas; ver PDF) |
+| **Estado**  | ~99 % de actividades de trabajo completadas (junio 2026) |
+| **PDF**     | [Informe Jira — estadísticas, tablero y burndown](./docs/jira.pdf) |
 
-| Aspecto     | Descripción                                                                         |
-| ----------- | ----------------------------------------------------------------------------------- |
-| **Epics**   | **PENDIENTE:** listar epics principales (p. ej. Auth, Horarios, Tareas, Admin CRUD) |
-| **Reparto** | **PENDIENTE:** breve reparto por miembro (issues asignadas)                         |
-| **Estado**  | **PENDIENTE:** % completado / sprint final                                          |
-| **PDF**     | Exportación con estadísticas, burndown y tablero → `./docs/jira.pdf`                |
-
-
-### Captura del tablero
-
-> Añadir captura actualizada antes del 5 de junio.
-
-Tablero Jira
+El informe incluye resumen de estado (captura del panel Jira), tareas por persona, distribución por columnas, progreso por épica y gráfico de burndown del proyecto.
 
 ---
 

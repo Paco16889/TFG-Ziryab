@@ -1,1 +1,4 @@
 .cursor/
+scripts/jira-pdf/node_modules/
+scripts/jira-pdf/.env
+scripts/jira-pdf/data/
