@@ -26,18 +26,11 @@ Si la demo en vivo falla (red, Render caído, login, error 500), el equipo puede
 
 ### 1. Screenshots (carpeta `screenshots/`)
 
-Mínimo recomendado (nombres sugeridos):
+Nombres alineados con [guion-demo-paso-a-paso.md](./guion-demo-paso-a-paso.md) (capturar **flujos de demo**, no formularios vacíos):
 
-- `01-login.png`
-- `02-admin-dashboard.png`
-- `03-alumnos-listado.png`
-- `04-matricula-o-ficha-alumno.png`
-- `05-asignaciones-u-horario.png`
-- `06-tablon-anuncio.png` (opcional)
-- `07-profesor-clases.png`
-- `08-profesor-tarea.png`
-- `09-alumno-horario.png`
-- `10-alumno-entrega-tarea.png`
+**Mínimo obligatorio:** `01-login-tres-roles.png`, `02-admin-panel-menu.png`, `03-ciclo-formativo-detalle.png`, `04-wizard-asignaciones-docentes.png`, `05-grupos-del-ciclo.png`, `06-horario-semanal-grupo.png`, `07-matricula-alumno-en-grupo.png`, `11-profesor-panel-inicio.png`, `12-profesor-mis-clases-horario.png`, `14-profesor-tarea-entregas.png`, `16-alumno-panel-inicio.png`, `17-alumno-horario-semanal.png`, `18-alumno-tarea-pendiente-entrega.png`
+
+**Opcionales:** `00-url-app.png`, `08-alumno-matriculado-ficha.png`, `09-tablon-anuncio-audiencia.png`, `10-suspension-masiva-preview.png`, `13-profesor-detalle-clase-grupo.png`, `15-profesor-lista-asistencia.png`, `19-alumno-notificaciones.png`, `20-swagger-o-android.png`
 
 ### 2. Vídeos (carpeta `videos/`)
 
