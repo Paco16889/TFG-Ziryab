@@ -227,16 +227,24 @@ Por cada módulo: **aportación al proyecto**, **evidencias en Jira** (tablero `
 
 **Profesor/a:** David Hormigo Ramírez
 
-**Aportación al proyecto:** La interfaz de Ziryab se diseñó con enfoque **mobile first** y diseño **responsivo**, de modo que la web se adapta correctamente a móvil, tablet y escritorio. Además, se desarrolló una **aplicación Android** (con poca trazabilidad en Jira) orientada a profesor y alumno, centrada en el día a día en el aula: pasar lista, consultar horarios, justificar faltas, entregar tareas y revisarlas.
+> **Alcance de este módulo en Ziryab:** **experiencia en dispositivo** — SPA **responsive** (Angular + Tailwind) y **pantallas de la app Android** (UI nativa). No incluye la API **Node.js** ([Servidores y APIs](#servidores-y-apis)), los **servicios HTTP** de Angular ([Acceso a Datos](#acceso-a-datos)) ni la **lógica en Kotlin** (repositorios, coroutines: [PSP](#programación-de-servicios-y-procesos)).
+
+**Aportación al proyecto:** Diseño **mobile first** en la web: layouts con utilidades Tailwind (`sm:`, `md:`, `lg:`), navegación y formularios usables en móvil, tablet y escritorio. Complemento con **cliente Android nativo** (mismas áreas funcionales que la web en el aula, adaptadas a pantalla táctil). La app se puede probar en dispositivo o emulador; no está publicada como APK en este repo.
+
+| Canal              | Qué cubre PMDM en Ziryab                                                                 |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| **Web (Angular)**  | Adaptación responsive de login, dashboards, clases, horario, tareas, ficha de usuario…   |
+| **Android (UI)**   | Pantallas táctiles de profesor y alumno (lista, horario, faltas, tareas) — sin capa PSP   |
 
 **Evidencias (Jira):**
-- [EQ-352](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-352) — Arreglos de Front (UI adaptable)
-- [EQ-265](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-265) — Componentes de horario (alumno y profesor)
-- [EQ-287](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-287) — Horarios semanales (constructor y rejilla)
-- [EQ-204](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-204) · [EQ-211](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-211) — Gestión de tareas (profesor y alumno; también en app Android)
-- App Android (lista, horarios, faltas, tareas): sin ticket dedicado en Jira
+- [EQ-377](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-377) — Revisar UI/UX: coherencia visual, estados y **responsive en móviles** *(criterio de aceptación explícito)*
+- [EQ-352](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-352) — Arreglos de Front (UI adaptable en pantallas del proyecto)
+- [EQ-265](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-265) — Componentes de **horario** alumno y profesor (vista usable en distintos viewports)
+- [EQ-11](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-11) · [EQ-36](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-36) — CRUD admin con **interfaz responsive** en el DoD
 
-**Limitaciones / futuro:** no hay APK publicada; la aportación PMDM se centra en **web responsive** y PWA como mejora futura.
+**Evidencias en repositorio:** `angular/src/app/pages/` (plantillas con Tailwind), `angular/tailwind.config.js`, componentes de horario en `pages/alumno/` y `pages/profesor/`
+
+**Limitaciones / futuro:** la app Android no tiene tickets propios de “pantalla móvil” en Jira (véase [EQ-141](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-141) en PSP); **PWA** instalable como mejora futura de la web.
 
 ---
 
@@ -244,18 +252,21 @@ Por cada módulo: **aportación al proyecto**, **evidencias en Jira** (tablero `
 
 **Profesor/a:** David Hormigo Ramírez
 
-**Aportación al proyecto:** En el frontend se aplicaron **servicios** y **procesos asíncronos**: servicios Angular que encapsulan HTTP con **Observables**, flujos de autenticación (`AuthService`), gestión de tareas, credenciales y notificaciones. En el **backend**, servicios Node desacoplados (`routes → controller → service`), procesos de negocio (sesiones, entregas, asistencia) y **SSE** para notificaciones.
+> **Alcance de este módulo en Ziryab:** solo la **aplicación Android nativa en Kotlin**. Los servicios y procesos de **Angular** y **Node.js** se documentan en [Acceso a Datos](#acceso-a-datos), [Servidores y APIs](#servidores-y-apis) y [Desarrollo de Interfaces](#desarrollo-de-interfaces); la interfaz móvil responsive en [PMDM](#programación-multimedia-y-dispositivos-móviles).
+
+**Aportación al proyecto:** Cliente móvil complementario a la web, organizado en **capas de servicio** (repositorios, casos de uso o equivalentes) que encapsulan el acceso a la API REST de Ziryab. Los **procesos asíncronos** se resuelven con **Kotlin coroutines** (llamadas HTTP, autenticación Firebase → JWT del backend, carga de pantallas y flujos de aula). Funcionalidades implementadas en el dispositivo:
+
+| Área (rol)   | Procesos en la app Android                          |
+| ------------ | --------------------------------------------------- |
+| **Común**    | Login con Firebase, sesión con token del backend    |
+| **Profesor** | Pasar lista (4 estados), consulta de clases/horario |
+| **Alumno**   | Horario, faltas, justificación de ausencias, tareas y entregas |
 
 **Evidencias (Jira):**
-- [EQ-168](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-168) — Refactor de `AuthService` (Firebase/backend, `localStorage`, sustitución de `.toPromise()`)
-- [EQ-204](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-204) — `TaskService` HTTP (CRUD de tareas, profesor)
-- [EQ-211](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-211) — `StudentTaskService` HTTP (entregas y tareas, alumno)
-- [EQ-298](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-298) — Migración de assignments y servicios Angular asociados
-- [EQ-333](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-333) — `StudentPasswordService` (credenciales de alumnos)
-- [EQ-217](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-217) · [EQ-218](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-218) · [EQ-219](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-219) — Módulo de notificaciones (modelo, API/tiempo real, componente con signals)
-- [EQ-229](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-229) · [EQ-344](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-344) — UI de notificaciones
+- [EQ-141](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-141) — Documentar el proceso de implementación en Kotlin para los compañeros *(única tarea del tablero que cita Kotlin de forma explícita)*
+- [EQ-151](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-151) · [EQ-152](https://g-team-ddm5j4dr.atlassian.net/browse/EQ-152) — Escenarios UAT profesor/alumno (asistencia y justificaciones), validables también desde la app móvil
 
-**Evidencias en repositorio:** `angular/src/app/core/services/notifications.service.ts`, `node/src/modules/notifications/notifications.sse.ts`
+**Limitaciones / futuro:** la mayor parte del código Kotlin no tiene tickets dedicados en Jira; no hay APK publicada en este repo guía (interfaz móvil en [PMDM](#programación-multimedia-y-dispositivos-móviles)).
 
 ---
 
