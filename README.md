@@ -62,7 +62,7 @@
 <tr>
 <td valign="top"><h3>🧑‍💻 Francisco de Asís Cobo Sánchez</h3></td>
 <td align="right" valign="middle" rowspan="2" width="200">
-<a href="./assets/team/francisco.jpg"><img src="./assets/team/francisco.jpg" width="180" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
+<a href="./assets/team/paco.png"><img src="./assets/team/paco.png" width="180" alt="Foto de Francisco de Asís Cobo Sánchez"/></a>
 </td>
 </tr>
 <tr>
@@ -433,7 +433,7 @@ npm run docs:serve    # servidor local para revisión
 Marcar cuando esté listo (requisitos del centro):
 
 - URL de **este repositorio** registrada en la tabla del repo `exposiciones_proyecto_intermodular_25_26_2DAM_M` (sustituir `PENDIENTE` en la fila del equipo).
-- Fotos del equipo en `./assets/team/` (`francisco.jpg`, `Salces_Alcaraz_Antonio.png`, `angela.png`).
+- Fotos del equipo en `./assets/team/` (`paco.png`, `Salces_Alcaraz_Antonio.png`, `angela.png`).
 - Diagrama de arquitectura en `./assets/diagramas/arquitectura.png`.
 - Capturas en `./assets/screenshots/` referenciadas en este README (sin enlaces rotos).
 - URLs de GitHub (frontend, backend, este repo) verificadas.
