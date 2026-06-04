@@ -364,17 +364,17 @@ Por cada módulo: **aportación al proyecto**, **evidencias en Jira** (tablero `
 
 ## 📄 Documentación unificada
 
-Documentación técnica y de gestión exportada desde **Confluence** y otras fuentes, en un único PDF para el tribunal.
+Documentación técnica y de gestión del espacio **Confluence Ziryab** (exportación PDF completa del wiki del equipo), más informes y material de exposición.
 
 | Documento                               | Enlace                                                                                |
 | --------------------------------------- | ------------------------------------------------------------------------------------- |
-| **PDF unificado (Confluence + anexos)** | [./docs/documentacion.pdf](./docs/documentacion.pdf) |
+| **PDF Confluence (exportación wiki)**   | [./docs/documentacion.pdf](./docs/documentacion.pdf) |
 | **PDF resumen Jira**                    | [./docs/jira.pdf](./docs/jira.pdf) |
 | **Guion presentación oral** (demo, plan B, ensayo) | [📁 carpeta](./docs/guion-presentacion-oral/README.md) |
 | **Presentación inicial IPE** (charter, SMART, riesgos) | [📄 PDF](./docs/guion-presentacion-oral/presentacionInicial/PROYECTO_INTERMODULAR_ANTONIO_SALCES_ÁNGELA_MORA_FRANCISCO_COBO.pdf) |
 | **Lean Canvas IPE** (Grupo Sonrisa) | [🖼️ JPG](./docs/guion-presentacion-oral/presentacionInicial/Lean%20Canvas%20Grupo%20Sonrisa.jpg) |
 
-> Incluir en el PDF: arquitectura, casos de uso, modelo de datos, manual de despliegue y capturas de Confluence.
+> El PDF incluye las páginas del espacio Ziryab en Confluence (charter, arquitectura, módulos, despliegue, asistencia, etc.). Fuente markdown opcional en [`docs/confluence/`](./docs/confluence/README.md).
 
 ---
 

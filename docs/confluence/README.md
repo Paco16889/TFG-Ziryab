@@ -6,7 +6,8 @@ Documentación exportada automáticamente desde Confluence vía MCP Atlassian (R
 |-------|--------|
 | **Sitio** | [g-team-ddm5j4dr.atlassian.net](https://g-team-ddm5j4dr.atlassian.net/wiki) |
 | **Espacio** | `Ziryab` |
-| **Exportado** | 31 de mayo de 2026 |
+| **Exportado (PDF)** | junio de 2026 → [`../documentacion.pdf`](../documentacion.pdf) |
+| **Exportado (Markdown)** | 31 de mayo de 2026 |
 | **Páginas** | 9 |
 
 > **Nota:** El espacio `CCA` en `franciscocobsan.atlassian.net` no está autorizado en la conexión MCP actual. Solo se exportó el espacio **Ziryab** del sitio del equipo (`g-team-ddm5j4dr`).
@@ -25,27 +26,14 @@ Documentación exportada automáticamente desde Confluence vía MCP Atlassian (R
 | 8 | [08-eq-197-student-task.md](./08-eq-197-student-task.md) | EQ-197 · StudentTask al publicar tarea | [página](https://g-team-ddm5j4dr.atlassian.net/wiki/spaces/Ziryab/pages/43712514) |
 | 9 | [09-firebase-admin-vulnerabilidad.md](./09-firebase-admin-vulnerabilidad.md) | Decisión firebase-admin (Issue #5) | [página](https://g-team-ddm5j4dr.atlassian.net/wiki/spaces/Ziryab/pages/40730625) |
 
-## Documento unificado
+## Documento unificado (PDF para el tribunal)
 
-- **[documentacion-confluence-completa.md](./documentacion-confluence-completa.md)** — todas las páginas concatenadas (útil para generar `documentacion.pdf` con Pandoc o imprimir a PDF).
+El PDF oficial del repositorio es **[`../documentacion.pdf`](../documentacion.pdf)** — exportación completa del espacio Ziryab desde Confluence (**··· → Export to PDF** o exportación del espacio). Sustituye el PDF generado antes desde Markdown (~68 KB).
+
+## Markdown concatenado (referencia)
+
+- **[documentacion-confluence-completa.md](./documentacion-confluence-completa.md)** — páginas exportadas por MCP (sin imágenes `blob:`). Sirve para buscar texto en el repo.
 
 ## Imágenes embebidas
 
-Algunas páginas (home, Project Charter) incluyen imágenes que Confluence expone como `blob:` y **no se descargan** por API. Para el PDF final, exporta esas páginas manualmente desde Confluence (**··· → Export to PDF**) o descarga las imágenes desde la web.
-
-## Generar PDF local
-
-Desde la raíz del repo `TFG-Ziryab` (no repitas `TFG-Ziryab` en el `cd`):
-
-```powershell
-cd docs\confluence
-python build-pdf.py
-```
-
-Salida: `docs/documentacion.pdf`
-
-**Alternativa con Pandoc** (si lo instalas): desde `docs\confluence`:
-
-```powershell
-pandoc documentacion-confluence-completa.md -o ..\documentacion.pdf --toc -V lang=es
-```
+En el export Markdown por API, algunas páginas (home, Project Charter) no incluyen imágenes `blob:`. El **PDF de Confluence** sí las lleva embebidas. Para actualizar el PDF oficial, vuelve a exportar desde Confluence y sustituye [`../documentacion.pdf`](../documentacion.pdf).
